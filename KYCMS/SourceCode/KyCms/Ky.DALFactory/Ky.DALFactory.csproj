@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{840A3E62-D38E-406E-82BF-3A9E28F43244}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>Ky.DALFactory</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <RootNamespace>Ky.DALFactory</RootNamespace>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Ky.DALFactory/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\DataAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IAd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IAdCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IAdmin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IAnomaly.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IArticle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ICard.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IChannel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ICollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ICollectionAddress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IColumn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ICreate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ICustomForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ICustomFormField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IDictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IDownLoad.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IDownLoadAddress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IDownLoadServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IEnterprise.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IFeedback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IInfoModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IInfoOper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IKyCommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ILabelContent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ILbCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ILink.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ILog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IModelField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IMoney.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\INotice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IPowerColumn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IPowerGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IReport.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IReview.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ISinglePage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ISiteCount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ISpecial.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IStyleCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ISuperior.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ISuperLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ITag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\ITagCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserAlbum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserFavorite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserGroupModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserGroupModelField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserPhoto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IUserSpace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IViewLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IVote.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IVoteCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\DALFactory\IWebMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ky.Common\Ky.Common.csproj">
+      <Project>{2B517924-E2A8-484F-9986-481B1278C9FA}</Project>
+      <Name>Ky.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ky.Model\Ky.Model.csproj">
+      <Project>{2AB21994-67E8-45FE-AAF7-148A7FDA7CFA}</Project>
+      <Name>Ky.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

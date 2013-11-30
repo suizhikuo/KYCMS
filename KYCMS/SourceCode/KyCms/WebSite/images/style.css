@@ -1,0 +1,77 @@
+/* 全局设置 */
+
+BODY 
+{
+	FONT-SIZE: 12px; BACKGROUND: #fff; MARGIN: 0px 0px 0px 0px; COLOR: #000; FONT-FAMILY: tahoma, 宋体, fantasy; 
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 150%; FONT-FAMILY: 宋体
+}
+SELECT {
+	FONT-SIZE: 9pt; HEIGHT: 20px
+}
+FORM
+{
+	margin:0px 0px 0px 0px;
+}
+A {
+	COLOR: #000099;TEXT-DECORATION: none
+}
+.top {
+	border:solid 1px #c6c6c6;
+}
+.lmdh   /* 首页栏目导航 */
+ {
+    border-left:solid 1px #c6c6c6;border-right:solid 1px #c6c6c6;
+	text-align:right; color:#FFFFFF;
+	padding-right:12px;
+}
+
+
+.neirongall {
+	 MARGIN-BOTTOM: 8px; WIDTH: 1000px;MARGIN: auto;
+}
+.leftall{
+FLOAT:left;width:240px;
+}
+
+.rightall{
+float:left;
+}
+
+/*定义左侧 */
+.column {
+	WIDTH: 375px;FLOAT: left; MARGIN-left: 3px; MARGIN-top: 3px; HEIGHT: auto
+}
+.biaoti {
+	 HEIGHT: 26px; BACKGROUND-COLOR: #75b7e3
+}
+.btwenzi {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; MARGIN: 2px 0px 0px 12px; COLOR: #ffffff
+}
+.more {
+	FONT-SIZE: 12px; FLOAT: right; MARGIN: 2px 8px 0px 10px; COLOR: #ffffff
+}
+.piccolumn{} /*栏目图片 */
+.neirong{BORDER: #c6c6c6 1px solid;}   /*栏目图片 */
+
+/*定义右侧 */
+.picneirong{width:753px; MARGIN: 3px 1px 0px 6px;}
+
+
+.leftlist {
+	BORDER: #c6c6c6 1px solid; FLOAT: left; MARGIN: 3px 0px 0px; HEIGHT: auto; BACKGROUND-COLOR: #e9f6ff
+}
+.bluesize {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; FLOAT: left; MARGIN: 2px 0px 0px 12px; COLOR: #006699
+}
+
+
+.wybiaoti {
+	BACKGROUND-IMAGE: url(biaobj.gif); WIDTH: 238px; HEIGHT: 26px
+}
+
+.wyneirong {
+	MARGIN: auto;
+}
+

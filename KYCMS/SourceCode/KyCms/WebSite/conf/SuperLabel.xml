@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table>
+    <SuperId>10</SuperId>
+    <Name>{Ky_S_超级标签测试}</Name>
+    <LbCategoryName>超级标签</LbCategoryName>
+    <LbCategoryId>5</LbCategoryId>
+    <DataBaseType>2</DataBaseType>
+    <SuperDes />
+    <IsUnlockPage>true</IsUnlockPage>
+    <PageSize>10</PageSize>
+    <HostTable>KyAdmin</HostTable>
+    <GuestTable>0</GuestTable>
+    <SqlStr>SELECT UserId,LoginName,UserName,Password,LastLoginIP,LastLoginTime,LastLogoutTime,LoginTime,AllowMultiLogin,CheckCount,AddCount,RejectCount,GroupId,GroupName,RandNumber FROM KyAdmin</SqlStr>
+    <Content>&lt;table cellpadding="2" cellspacing="0" border="0" width="100%"&gt;
+&lt;Ky_Loop&gt;
+&lt;tr&gt;&lt;td&gt;·&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;/Ky_Loop&gt;
+&lt;/table&gt;</Content>
+    <AddTime>2007-11-10T17:38:05.297+08:00</AddTime>
+  </Table>
+</NewDataSet>

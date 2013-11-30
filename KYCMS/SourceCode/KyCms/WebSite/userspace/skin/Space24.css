@@ -1,0 +1,24 @@
+﻿body {  background-image:url(images/bg7.gif); background-color:#E3E3E3; text-align:center;font-size: 12px;font-family:Verdana, 宋体, fantasy; margin:0 }
+.width{ width:770px;background-image:url(images/bodybg7.gif);}
+#top{ background-image:url(images/top7.jpg); width:764px; height:120px; text-align:left}
+
+#sav{ background-image:url(images/sav7.gif); padding:7px; text-align:right; color:#FFFF00; margin-top:2px}
+#sav A
+{
+	color: #000;
+	text-decoration: none;
+}
+.up_bg{ background-image:url(images/leftUp7.gif); padding:4px; text-align:left; background-repeat:no-repeat; font-weight:800;; padding:5px 5px 5px 20px;}
+.down_bg{ background-image:url(images/leftDown7.gif); padding:4px; text-align:left; background-repeat:no-repeat; font-weight:800;; padding:5px 5px 5px 20px;}
+
+.border{width:100%; float:left; padding:5px}
+
+.modelTitle{ background-image:url(images/rightUp7.gif); padding:5px 5px 5px 25px;  font-weight:800; text-align:left}
+.modelTitleDown{ background-image:url(images/rightDown7.gif); padding:5px 5px 5px 25px;  font-weight:800; text-align:left}
+
+.item{  width:210px; margin-top:5px; text-align:left}
+#msgTitle{background-color: #E3E3E3; padding: 3px}
+#msgTime{ width:530px; text-align:right;color:Gray}
+/*#resumeBg{'background-color:#000;border:1px #ccc solid}*/
+
+#bodyTop{ background-image:url(images/bodyTop7.gif);width:770px; height:30px; background-repeat:no-repeat;}

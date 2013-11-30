@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <ProjectType>local</ProjectType>
+    <ProjectVersion>7.10.3077</ProjectVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5C473CAE-4D64-44BB-AA62-9CCF9D342486}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>Ky.BLL</AssemblyName>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <RootNamespace>Ky.BLL</RootNamespace>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Ky.BLL/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugSymbols>true</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE</DefineConstants>
+    <DebugSymbols>false</DebugSymbols>
+    <NoStdLib>false</NoStdLib>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <Name>System.Configuration</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Ad.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_AdCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Admin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Anomaly.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Article.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_BBSUser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Card.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Channel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Collection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_CollectionAddress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Column.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_ConfigModule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Controller.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_ConvertImage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Create.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Dictionary.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_DownLoad.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_DownLoadaddress.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_DownLoadServerData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_DownLoadServerType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Enterprise.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Feedback.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_FileCheck.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Group.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Img.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_InfoOper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_KyCommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_LabelContent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_LbCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Link.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Log.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Money.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Notice.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_PowerColumn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_PowerGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Report.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Review.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_SendMail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_SinglePage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_SiteCount.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_SiteInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_SoftUpLoad.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Special.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Style.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_StyleCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Superior.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_SysModelField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Tag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_TagCategroy.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UpLoadFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UpLoadPic.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_User.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UserAlbum.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UserFavorite.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UserGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UserLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UserMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UserPhoto.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_UserSpace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_ViewFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_ViewLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_Vote.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_VoteCategory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\B_WebMessage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_CustomForm.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_CustomFormField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_InfoModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_ModelField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_ShowFieldStyle.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_SuperLabel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_UserGroupModel.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\CommonModel\B_UserGroupModelField.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ky\BLL\WebServiceHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ky.Common\Ky.Common.csproj">
+      <Project>{2B517924-E2A8-484F-9986-481B1278C9FA}</Project>
+      <Name>Ky.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ky.DALFactory\Ky.DALFactory.csproj">
+      <Project>{840A3E62-D38E-406E-82BF-3A9E28F43244}</Project>
+      <Name>Ky.DALFactory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ky.Model\Ky.Model.csproj">
+      <Project>{2AB21994-67E8-45FE-AAF7-148A7FDA7CFA}</Project>
+      <Name>Ky.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

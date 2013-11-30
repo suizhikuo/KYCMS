@@ -1,0 +1,88 @@
+﻿<html>
+<head>
+    <title>插入表格</title>
+    <style>
+   body{margin:0px}
+   td{cursor:hand;}
+    </style> 
+</head>
+<body scroll="no">
+<table height=100% width=100% ><tr><td>
+<table border=1 cellpadding=1 cellspacing=1 width=97% height=97% bordercolor=black align=center id="tbl">
+    <tr><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)'>&nbsp;</td><td  onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td></tr>
+   <tr><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td  onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td></tr>
+   <tr><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td></tr>
+    <tr><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td></tr>
+   <tr><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)"> &nbsp;</td><td onmouseover='Hover(this)' onclick="Insert(this)">&nbsp;</td></tr> 
+</table>
+
+
+</td></tr></table>
+
+</body>
+</html>
+<script language="javascript">
+
+function Insert(val)
+{
+    var rowIndex =  val.parentElement.rowIndex;
+    var cellIndex =  val.cellIndex;   
+    var tabStr = "<table width='100%' border='1'>";
+    for(var j=0;j<=rowIndex;j++)
+    {
+         tabStr+="<tr>"
+         for(var i=0;i<=cellIndex;i++)
+        {
+            tabStr+="<td></td>"
+         }
+         tabStr+="</tr>" 
+    }  
+    tabStr += "</table>";
+    parent.SetPasteHTML(tabStr);
+    ClearColor(); 
+    parent.$('dvShow').style.visibility = "hidden"; 
+}
+function Hover(val)
+{
+      ClearColor();
+      var rowIndex =  val.parentElement.rowIndex;
+      var cellIndex =  val.cellIndex;   
+  
+        for(var j=0;j<=rowIndex;j++)
+        {
+             for(var i=0;i<=cellIndex;i++)
+            {
+                document.getElementById('tbl').rows[j].cells[i].style.backgroundColor="#cccccc"
+             }
+        }  
+       
+
+}
+
+function ClearColor()
+{
+    var tbArray = document.getElementById('tbl').getElementsByTagName("TD");
+    for(var i=0;i<tbArray.length;i++)
+    {
+         tbArray[i].removeAttribute("style");
+    }  
+}
+function InsertTable()
+{
+    var rowCount = tbr.value;
+    var colCount = tbc.value;
+    var tableStr = "<table border=1>";
+    for(var i=0;i<rowCount;i++)
+    {
+         tableStr+="<tr>";
+         for(var j=0;j<colCount;j++) 
+         {
+                  tableStr+="<td></td>";
+         } 
+         tableStr+="</tr>"; 
+    } 
+    tableStr+="</table>";   
+    dialogArguments.SetPasteHTML(tableStr);
+    window.close(); 
+}
+</script>

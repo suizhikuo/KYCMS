@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SpaceTemplate.master.cs"
+    Inherits="userspace_SpaceTemplate" %>
+<%@ Import Namespace="Ky.Common" %>
+<link type="text/css" href="skin/space.css" rel='stylesheet' />
+<%=StyleCss %>
+
+<script type="text/javascript" src="../js/Common.js"></script>
+
+<script type="text/javascript" src="../js/XmlHttp.js"></script>
+
+<script type="text/javascript" src="../js/ShowTipsIframe.js"></script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>用户个人空间模板页</title>
+</head>
+<body onload="ChangeBgColor()">
+    <form id="form1" runat="server">
+        <div class="width" style="margin: 0 auto;">
+            <div id='bodyTop'>
+                <div class="fl">
+                    <a href="<%= CreateBll.GetIndexUrl()%>" target="_blank">
+                        <img src="skin/images/kycms.gif" border="0" alt="酷源软件管理系统" /></a></div>
+                <div class='fr'>
+                    今天是：&nbsp;<script>var d=returnDate();document.write(d);</script>
+
+                </div>
+            </div>
+            <div id="top">
+                <div id='username'>
+                    <a href='MyInfoList.aspx?UserName=<%=UserName %>' target="_blank">
+                        <%= UserName %>
+                        <font>的专栏</font></a>
+                </div>
+                <div id="spacename">
+                    <img src="skin/images/icon_t.jpg" />【<%=SpaceName %>】<a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('<%= Request.Url.ToString() %>')"
+                        style="cursor: hand">设为首页</a>&gt;&gt;<a href="javascript:window.external.AddFavorite('<%= Request.Url.ToString() %>','<%=UserName %>的个人空间')"
+                            target="_top">加入收藏</a></div>
+            </div>
+            <div id="sav">
+                <span style="margin-left: 10px" class="fl"><a href="../Index.aspx" target="_blank">站点首页</a></span><span><a
+                    href='MyInfoList.aspx?UserName=<%=Function.UrlEncode(UserName) %>&ColorId=0' id="show0">个人首页</a>┆<a href='MyInfoList.aspx?UserName=<%=Function.UrlEncode(UserName) %>&ColorId=1'
+                        id="show1">我的稿件</a>┆<a href='MyAlbum.aspx?UserName=<%=Function.UrlEncode(UserName) %>&ColorId=2' id="show2">我的相册</a>┆<a
+                            href="MyFriend.aspx?UserName=<%=Function.UrlEncode(UserName) %>&ColorId=3" id="show3">我的好友</a>┆<a href='MyMessage.aspx?UserName=<%=Function.UrlEncode(UserName) %>&ColorId=4#Msg'
+                                id="show4">给我留言</a> </span>
+            </div>
+            <div id='box' class='marTop0'>
+                <div id="left" class="fl">
+                    <div class="item wrap">
+                        <div class="up_bg" onclick="ShowHidden('divUname',this,'left')" title='点击隐藏'>
+                            <span>个人信息</span></div>
+                        <div class="border tc" id='divUname'>
+                            <div id='' class="tl">
+                               所属用户组：<%=GroupName %><br />
+                                登录次数：<%=UserInfo("loginNum")%><br /> 
+                                最后登录IP：<%=UserInfo("LastLoginIp") %><br />
+                                <img src="skin/images/loginInfo.gif" />最后登录时间：<%=Convert.ToDateTime(UserInfo("LastLoginTime")).ToShortDateString()%><br />
+                                发表文章：<asp:Label ID="InfoNumber" runat="server" Text=""></asp:Label>
+                            </div>
+                            <hr />
+                            <input type="button" value='加为好友' class="btn" onclick="setFriend()" />
+                            <asp:Button ID="btnSetFriend" runat="server" Text="加为好友" CssClass="btn" OnClick="btnSetFriend_Click"
+                                Visible="false" />
+                            <input type="button" class="btn" value="给我留言" onclick='window.location.href="MyMessage.aspx?UserName=<%=UserName %>#Msg"' />
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="up_bg" onclick="ShowHidden('divMsg',this,'left')" title='点击隐藏'>
+                            <span>留言板</span></div>
+                        <div class="border" id='divMsg'>
+                            <div class='tc'>
+                                <asp:Label ID="Label4" runat="server" Text=""></asp:Label></div>
+                            <asp:Repeater ID="repMessage" runat="server">
+                                <ItemTemplate>
+                                    <li>
+                                        <div style="width: 168px" class='wrap'>
+                                            <span class="iconBg"></span>
+                                            <%#GetAnounName(Eval("HomePage"),Eval("AnounName")) %>
+                                        </div>
+                                    </li>
+                                    <div class='marTop3 wrap'>
+                                        &nbsp;&nbsp;&nbsp;<font color="#999999"><%#Function.HtmlEncode(ShowTitle(Eval("Title"),Eval("IsPrivacy"))) %></font>
+                                        <hr />
+                                    </div>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <div class="fr" runat="server" id="showMore">
+                                <a href='MyMessage.aspx?UserName=<%=UserName %>' visible="true">
+                                    <img src="skin/images/more.gif" border="0" alt="更多留言.." /></a></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="up_bg" onclick="ShowHidden('divInfo',this,'left')" title='点击隐藏'>
+                            <span>最新稿件</span></div>
+                        <div class="border" id='divInfo'>
+                            <div class='tc'>
+                                <asp:Label ID="Label1" runat="server" Text=""></asp:Label></div>
+                            <table width="99%" cellpadding="0" cellspacing="0" border="0">
+                                <asp:Repeater ID="repMyInfo" runat="server">
+                                    <ItemTemplate>
+                                        <tr>
+                                            <td>
+                                                <div class="wrap">
+                                                    <li><a href="<%#GetUrl(Eval("Id"),Eval("ModelType")) %>" target="_blank">
+                                                        <%# Function.HtmlEncode(Eval("Title"))%>
+                                                    </a></li>
+                                                </div>
+                                                <hr />
+                                            </td>
+                                        </tr>
+                                    </ItemTemplate>
+                                </asp:Repeater>
+                            </table>
+                            <div class="fr" runat="server" id="showMore1">
+                                <a href='MyInfoList.aspx?UserName=<%=UserName %>' visible="true">
+                                    <img src="skin/images/more.gif" border="0" alt="更多稿件.." /></a></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="up_bg" onclick="ShowHidden('divFriend',this,'left')" title='点击隐藏'>
+                            <span>我的好友</span></div>
+                        <div class="border" id='divFriend'>
+                            <div class='tc'>
+                                <asp:Label ID="Label2" runat="server" Text=""></asp:Label></div>
+                            <asp:Repeater ID="repFriend" runat="server">
+                                <ItemTemplate>
+                                    <div class="wrap">
+                                        <span class="iconBg"></span>
+                                        <%#Eval("LogName") %>
+                                    </div>
+                                    <hr style="clear: both" />
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            <div class="fr" runat="server" id="showMore2">
+                                <a href='MyInfoList.aspx?UserName=<%=UserName %>' visible="true">
+                                    <img src="skin/images/more.gif" border="0" alt="更多好友.." /></a></div>
+                        </div>
+                    </div>
+                    <div class="item tc">
+                        <div class="up_bg" onclick="ShowHidden('divAlbum1',this,'left')" title='点击隐藏'>
+                            <span>最新相册</span></div>
+                        <div class="border tc" id='divAlbum1'>
+                            <div class='tc'>
+                                <asp:Label ID="Label5" runat="server" Text=""></asp:Label></div>
+                            <div class="layout tc" runat="server" id="divAlbum" visible="true">
+                                <div>
+                                    <img src="skin/images/albumtop.jpg" width="189px" height="4px" /></div>
+                                <div class="middleBg">
+                                    <asp:Label ID="lbAlbum" runat="server" Text=""></asp:Label><br />
+                                    <div style="padding: 5px">
+                                        当前相册:<asp:Label ID="Label3" runat="server" Text=""></asp:Label></div>
+                                    <img src="skin/images/2.jpg" onmouseover="this.src='skin/images/3.jpg'" onmouseout="this.src='skin/images/2.jpg'"
+                                        onclick="window.location.href='MyAlbum.aspx?UserName=<%=UserName %>'" style="cursor: pointer" />
+                                    <br />
+                                </div>
+                                <div>
+                                    <img src="skin/images/albumbtm.jpg" width="189px" height="4px" /></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="right">
+                    <div style="padding: 10px;" class="fr">
+                        <div id="divLoginInfo">
+                        </div>
+
+                        <script language='javascript'>var data = XmlHttpPostMethodText('LoginInfo.aspx','');divLoginInfo.innerHTML=data;
+                        </script>
+
+                    </div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="copyright">
+                <br />
+                <p>
+                    <asp:Label ID="lbCopyRight" runat="server" Text=""></asp:Label></p>
+                程序开发：酷源科技(成都)有限公司</div>
+        </div>
+        <asp:Label runat="server" ID="lbMsg"></asp:Label>
+    </form>
+</body>
+</html>
+
+<script type="text/javascript">
+function ChangeBgColor()
+{
+        $("show"+<%=ColorId %>).style.color='#245DDB';
+}
+
+</script>
+

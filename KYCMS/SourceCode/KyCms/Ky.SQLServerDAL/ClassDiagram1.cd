@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="Ky.SQLServerDAL.Ad" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Ad.cs</FileName>
+      <HashCode>AAYAAAAAAACAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.AdCategory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\AdCategory.cs</FileName>
+      <HashCode>AAYAAAAAAACAAAAABAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Admin" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Admin.cs</FileName>
+      <HashCode>AAIAAAAAAECAAAAAAAAAAAAAAAECAAAAAQAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Anomaly" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Anomaly.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAACAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Article" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Article.cs</FileName>
+      <HashCode>AAYAAAAAEAAQAAAAAAAAAQAAAAAAAAAAEAABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Card" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Card.cs</FileName>
+      <HashCode>AAYAgAAAAEAAAAAAAAAAAAAAQAEAAAAAIAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Channel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Channel.cs</FileName>
+      <HashCode>AAYAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAgAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Collection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Collection.cs</FileName>
+      <HashCode>AAYAAAAgAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CollectionAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CollectionAddress.cs</FileName>
+      <HashCode>QAIAAAAAgAAAAAAAIAAAAAAAAAAEAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Column" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Column.cs</FileName>
+      <HashCode>AAYAAAAAAMAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAAw=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Controller" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Controller.cs</FileName>
+      <HashCode>AAYAAAAAAAAAAgAAAAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Create" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="2.25" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Create.cs</FileName>
+      <HashCode>AAAQEgAAggCAAAAAAAEAACCAAAEUGEiCCiAiAEQAAAg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Dictionary" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Dictionary.cs</FileName>
+      <HashCode>AAYAAAAAAACABABAAAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.DownLoad" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\DownLoad.cs</FileName>
+      <HashCode>AAYIAAAAAAAAAAAAAAAAAAAAAACAAAABAAAAAIAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.DownLoadAddress" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\DownLoadAddress.cs</FileName>
+      <HashCode>AA4AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.DownLoadServer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\DownLoadServer.cs</FileName>
+      <HashCode>AAAAAAEAEIAQAAAAEAAAAACAAQkAAEgAAAQAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Enterprise" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Enterprise.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAgAgAIAAAAABAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Feedback" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Feedback.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAYAAAMAAAAAAAAABAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Group" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Group.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAACQAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Image" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Image.cs</FileName>
+      <HashCode>AAYAAAAAEAAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.InfoOper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\InfoOper.cs</FileName>
+      <HashCode>IAEAQABBQQAFACAAAAAICIYAAAEAAFQAAEAQAAAABAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.KyCommon" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\KyCommon.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.LabelContent" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\LabelContent.cs</FileName>
+      <HashCode>AA4AAAIAAAEAAABEAAAAAEAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.LbCategory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\LbCategory.cs</FileName>
+      <HashCode>AAYAAAAAAAAAgAAAAAAIAAEAAAEAAAAAAAAAAAAAAQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Link" BaseTypeListCollapsed="true">
+    <Position X="7" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Link.cs</FileName>
+      <HashCode>AAYAAAAAAACABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Log" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Log.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Money" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Money.cs</FileName>
+      <HashCode>AAAAAAAEAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Notice" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Notice.cs</FileName>
+      <HashCode>AAQAAEAAAAAAAQCBAAAAgAAAAAAEAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.PowerColumn" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\PowerColumn.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.PowerGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\PowerGroup.cs</FileName>
+      <HashCode>AAQAgEAAAAAAAACBAAAAAAAAAAAEABAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Report" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Report.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Review" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Review.cs</FileName>
+      <HashCode>AAIABAAAAACAAAAABAAABAAABAAAAAAgAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.SinglePage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\SinglePage.cs</FileName>
+      <HashCode>AAYAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.SiteCount" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\SiteCount.cs</FileName>
+      <HashCode>AAAAAAAAEAIAAAAAAAAQCAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Special" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Special.cs</FileName>
+      <HashCode>IAYAAAAAAQAAAAAAAAAEAAEAAAEAAwAAAAAAAAAAAAg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.SqlHelper" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\SqlHelper.cs</FileName>
+      <HashCode>QAAABCGAAAAAACAAABAAAEAAAAAAAAABAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ky.SQLServerDAL.SqlRun" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\SqlRun.cs</FileName>
+      <HashCode>AAAAAAAAACAAIAAAAAAABAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ky.SQLServerDAL.StyleCategory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\StyleCategory.cs</FileName>
+      <HashCode>AAYAAAAIAAAAAAAQAAAAAAEAAAEAAAAAAAAQAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.StyleManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\StyleManager.cs</FileName>
+      <HashCode>AGgAAAAAAAAEAAAAGAAAAAARAAEIgAQAAAAAAAYgAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Superior" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Superior.cs</FileName>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Tag" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Tag.cs</FileName>
+      <HashCode>AAIAJAAAAAAAAAACAAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.TagCategory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\TagCategory.cs</FileName>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.User" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\User.cs</FileName>
+      <HashCode>QIEAAXBEECAggglAIAAAAACgAAEQEBhAFAQYgogUAQA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.UserAlbum" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\UserAlbum.cs</FileName>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABIAAAAg=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.UserFavorite" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\UserFavorite.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.UserGroup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\UserGroup.cs</FileName>
+      <HashCode>AAYAAAAAAACAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.UserLog" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\UserLog.cs</FileName>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAEAAEAAAAAAAAAAAIAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.UserMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\UserMessage.cs</FileName>
+      <HashCode>AAUABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.UserPhoto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\UserPhoto.cs</FileName>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAIwAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.UserSpace" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\UserSpace.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQCBAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.ViewLog" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\ViewLog.cs</FileName>
+      <HashCode>AAIAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.Vote" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Vote.cs</FileName>
+      <HashCode>BAACgAAAAAAAAAAEBAAAAAAAAAEAAAAAAgAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.VoteCategory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\VoteCategory.cs</FileName>
+      <HashCode>AAYAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.WebMessage" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\WebMessage.cs</FileName>
+      <HashCode>IAAAAEAAAAAAAAAAAAAAIAAAAAEEAAAAAAIAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CommonModel.CustomForm" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CommonModel\CustomForm.cs</FileName>
+      <HashCode>AAYAAAAAAACAAAAAAAAIAAAAAAEAACAAAgAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CommonModel.CustomFormField" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CommonModel\CustomFormField.cs</FileName>
+      <HashCode>AAYAAAAAAACIAACAAAAAACAABAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CommonModel.InfoModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CommonModel\InfoModel.cs</FileName>
+      <HashCode>AAcAAAAAAACAQgAAAAAAAAEAwAEAACAAAAAAAAIEAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CommonModel.ModelField" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CommonModel\ModelField.cs</FileName>
+      <HashCode>AAYAAAAEACCIAACAEAAQAAACAAEBAAAAAIAAAAEAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CommonModel.SuperLabel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CommonModel\SuperLabel.cs</FileName>
+      <HashCode>CAYAAEAAAACAAAAAAAAoACAAAAEAAACAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CommonModel.UserGroupModel" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CommonModel\UserGroupModel.cs</FileName>
+      <HashCode>EAcAAAAAAACAAAAAAAAAAAAAAAEAACAAAgAAAAAEAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Ky.SQLServerDAL.CommonModel.UserGroupModelField" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\CommonModel\UserGroupModelField.cs</FileName>
+      <HashCode>AAYAAAAAAACIAACAAAAAACAABAEAAAAAAAAAAAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Struct Name="Ky.SQLServerDAL.Item" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Ky\SQLServerDAL\Item.cs</FileName>
+      <HashCode>ABAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Struct>
+</ClassDiagram>

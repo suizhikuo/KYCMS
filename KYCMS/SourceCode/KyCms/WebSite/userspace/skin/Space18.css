@@ -1,0 +1,24 @@
+﻿body {  background-image:url(images/bg1.gif); background-color:#E3E3E3; text-align:center;font-size: 12px;font-family:Verdana, 宋体, fantasy; margin:0 }
+.width{ width:770px;background-image:url(images/bodybg1.gif);}
+#top{ background-image:url(images/top1.jpg); width:764px; height:120px; text-align:left}
+#bodyTop{ background-image:url(images/bodyTop.gif);width:770px; background-repeat:no-repeat;}
+
+#sav{ background-image:url(images/sav1.gif); padding:7px; color:#FFFF00; text-align:right; margin-top:2px}
+#sav A
+{
+	color: #FFFF00;
+	text-decoration: none;
+}
+.up_bg{ background-image:url(images/leftUp1.gif); padding:6px 6px 6px 20px; text-align:left; background-repeat:no-repeat; font-weight:800;}
+.down_bg{ background-image:url(images/leftDown1.gif);  text-align:left; background-repeat:no-repeat; font-weight:800;padding:6px 6px 6px 20px;}
+
+.border{border:#C18546 solid 1px; width:100%; float:left; padding:4px;background-image:url(images/leftbg1.gif)}
+
+.modelTitle{ background-image:url(images/rightUp1.gif); padding:5px;  font-weight:800; text-align:left; padding:5px 5px 5px 25px;}
+.modelTitleDown{ background-image:url(images/rightDown1.gif); padding:5px;  font-weight:800; text-align:left; padding:5px 5px 5px 25px;}
+
+.item{  width:210px; margin-top:5px; text-align:left}
+.msgBoder{ border:1px #ccc solid}
+#msgTitle{background-color: #E3E3E3; padding: 3px}
+#msgTime{ width:530px; text-align:right;color:Gray}
+#resumeBg{background-color:#E8F0F1;border:1px #ccc solid}

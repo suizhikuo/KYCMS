@@ -1,0 +1,64 @@
+﻿/* Power By http://www.Mb263.com  凤凰涅磐*/
+body,td,th {
+	font-size: 9pt;
+	color: #000;
+}
+body {
+	background-color: #fbfcf9;
+	background-image: url(../images/all_bg.gif);
+	background-repeat: repeat-y;
+	margin: 0px;
+	background-position:center;
+    font-family:'宋体';
+	text-decoration: none;
+	letter-spacing:1px;
+}
+input {
+	BORDER:#b2b2b2 1px solid;PADDING:0px;HEIGHT:18px
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000; LINE-HEIGHT: 20px
+}
+a {MARGIN: 0px;PADDING:0px;BORDER:0px;text-decoration: none;}
+a:link,a:visited,a:active {color:#000;}
+a:hover{color:#BD633F;}
+.clearall{CLEAR:both;display:none;}
+.bg1{background: url(../images/1bg.gif) #F7F8F2; height:26px;}
+a.rss:link,a.rss:visited,a.rss:active{color:#6D3700;}
+a.rss:hover{color: #ff6600;}
+.td1{width:900px;margin:0px auto;}
+.td2{width:890px;margin:0px auto;}
+.banner{background:url(../images/banner.gif) no-repeat;height:124px;}
+.dhbg {background:url(../images/dhbg.gif);height: 38px;letter-spacing:2px;}
+.ybg {background:url(../images/ybg.gif);width:675px;}
+.ybg_1{background:url(../images/ybg.gif);width:670px;padding:0px 5px 0px 0px;}
+.hdbg{background:#CCCCCC;padding:5px 5px 0px 5px;}
+.bor1{border:solid 1px #CCC6C6;padding:1px;}
+.bor2{border:solid 1px #CCC6C6;text-align:left;}
+.bor4{border-top:solid 1px #CCC6C6;border-left:solid 1px #CCC6C6;border-right:solid 1px #CCC6C6;text-align:left;}
+.bor5{border-bottom:solid 1px #CCC6C6;border-left:solid 1px #CCC6C6;border-right:solid 1px #CCC6C6;text-align:left;}
+.abg{background:url(../images/abg.gif);height:176px;border-top:solid 1px #FEAE20;}
+.abg_1{background:url(../images/abg_1.gif);height:16px;padding-top:4px;text-align:center;letter-spacing:2px;}
+.title2{background:url(../images/abg_2.gif);height:16px;width:103px;color:#fff;font-weight:bold;padding-top:4px}
+.title1{background:url(../images/abg_1.gif);height:16px;width:103px;color:#000;padding-top:4px}
+.bg2{background:url(../images/bg1.gif);height:33px;text-align:left;letter-spacing:2px;padding-top:0px;}
+.bg3{background:url(../images/bg2.gif);height:33px;text-align:left;letter-spacing:2px;}
+.lobg{background:url(../images/lobg.gif);height:160px;letter-spacing:1px;}
+.lobg2{background:url(../images/lobg.gif);height:185px;letter-spacing:1px;}
+.copy{line-height:20px;letter-spacing:2px;}
+.copy_1{line-height:20px;letter-spacing:2px;height:28px;background:EBEBEB}
+.list1{height:20px;}
+.list2{height:20px; border-bottom:dotted 1px #BBBBBB;}
+.list3{height:20px;}
+.list4{height:20px; border-top:dotted 1px #BBBBBB;}
+.atop{padding-top:7px;}
+.bor3{border:3px double #D1D1D1;margin-bottom:5px;}
+.sbg{background:url(../images/sbg.gif);height:32px;border:solid 1px #BBBBBB;}
+.patha{height:20px;border-bottom:dotted 1px #000;}
+.erdh{background:#EBEBEB;height:24px;}
+.tpa{ text-align:left;}
+.tpb{ text-align:left;}
+.hbg{background:url(../images/hbg.gif);height:114px;width:154px;padding:0px 0px 0px 0px;}
+.ch_col{border:solid 1px #CCC6C6;width:332px;text-align:left;margin:0px 2px 5px 2px;line-height:24px;}
+.col_subcol{border:solid 1px #CCC6C6;width:332px;text-align:left;margin:0px 2px 5px 2px;line-height:24px;}
+.nr_1{ line-height:24px;WORD-BREAK: break-all}

@@ -1,0 +1,132 @@
+iframe.CaoYuan_Composition
+{
+	border: 2px inset;
+}
+.CaoYuan_Reply
+{
+	border : 1px  inset;
+}
+table.CaoYuan_Body
+{
+	background-color:gainsboro;
+	border:1px solid #CCCCCC;
+}
+.yToolbar
+{
+
+}
+.CaoYuan_Btn
+{
+	BACKGROUND-COLOR: gainsboro;
+	Text-align: center;
+	HEIGHT: 20px;
+	WIDTH: 20px;
+}
+.CaoYuan_Ico
+{
+	cursor: pointer;
+}
+.CaoYuan_TBGen
+{
+	FONT: 8pt verdana,arial,sans-serif;
+	margin : 5px;
+}
+
+.CaoYuan_BtnMouseOverUp
+{
+border : 1px solid #3169C6;
+background-color : #C6D3EF;
+Text-align: center;
+cursor: pointer;
+HEIGHT: 18px;
+WIDTH: 18px;
+}
+
+.CaoYuan_bgcolor
+{
+BACKGROUND-COLOR: gainsboro;
+HEIGHT: 2px;
+WIDTH: 2px;
+}
+
+.CaoYuan_BtnMouseOverDown
+{
+	border : 1px solid transparent;
+	BACKGROUND-COLOR: #EEEEEE;
+	Text-align: center;
+	cursor: pointer;
+	HEIGHT: 20px;
+	WIDTH: 20px;
+}
+
+.BtnDown
+{
+	BACKGROUND-COLOR:  #8592B5;
+	cursor: pointer;
+	Text-align: center;
+}
+
+.CaoYuan_IcoDown
+{
+	cursor: pointer;
+	
+}
+
+.CaoYuan_IcoDownPressed
+{
+	cursor: pointer;
+	
+}
+
+td.CaoYuan_TabOn {
+	font: 8pt MS Sans Serif;
+	padding:1px 5px;
+	border:1px inset;
+	background-color: #EEEEEE;
+}
+
+td.CaoYuan_TabOff {
+	font: 8pt MS Sans Serif;
+	padding:1px 5px;
+	border:1px outset;
+	cursor: pointer;
+	
+}
+td.CaoYuan_SmileOn {
+	font: 9pt MS Sans Serif;
+	border:1px inset;
+	background-color: #FFD988;
+	cursor: pointer;
+	
+
+}
+td.CaoYuan_SmileOff {
+	font: 9pt MS Sans Serif;
+}
+.icoover{
+float:left;
+cursor: pointer;
+margin:7px 5px 1px 5px;
+}
+.icoovermouseover
+{
+float:left;
+cursor: pointer;
+border : 1px solid #3169C6;
+background-color : #C6D3EF;
+margin:6px 4px 0px 4px;
+}
+.icoonclick
+{
+text-align : center; 
+margin:6px 4px 0px 4px;
+float:left;
+border:1px inset;
+background-color: #EEEEEE;
+}
+.reviewlogo {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	background-image: url("../reviewlogo.jpg");
+	background-repeat: repeat-y;
+	background-position: right top;
+}

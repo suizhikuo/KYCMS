@@ -1,0 +1,38 @@
+﻿body{MARGIN: 0px; FONT: 12px/200% Verdana;text-align:center; TEXT-DECORATION: none;BACKGROUND: #fff; COLOR: #000000}
+A {COLOR: #000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none}
+a:hover{color: #FF3300;text-decoration:underline}
+/*定义全局*/
+/*导航背景*/
+.logo{width:900px;height:80px;overflow:hidden;font-size:24px; padding:20px;}
+.dhbj{background-image:url(../images/2_dhbj.gif);border-left:#a3bcb2 1px solid;border-right:#a3bcb2 1px solid;border-bottom:#477864 1px solid;border-top:#ff7300 2px solid;margin-bottom:5px;color:#001d4c;}
+.dhbj a{color:#001d4c;}
+.dhbj a:hover{}
+.dhbj tr{ font-weight:800;}
+.leftbj{background-image:url(../images/2_leftbj.gif);}
+.leftbk{border:#6bb0c6 1px solid}
+.leftlist{background:#e3f0f5;word-break:break-all;}
+.dhjx{ background-image:url(../images/2_dhjx.gif)}
+/*右侧*/
+.rg01{ background-image:url(../images/2_01.gif);height:30px;width:5px;}
+.rg02{ background-image:url(../images/2_02.gif);height:30px;}
+.rg03{ background-image:url(../images/2_03.gif);height:30px;width:5px;}
+
+/*底部*/
+.bottom{border-top:#4778b4 2px solid; clear:both;}
+IMG{BORDER: 0px;}
+ul,li{margin:0px;padding:0px;}
+.width{ width:900px; margin:0 auto;}
+
+hr{border:1px dashed #000; height:1px}
+.up_bg{ cursor:pointer;}
+.padding5{ padding:5px}
+.paddingTop5{ padding-top:5px}
+.savIcon{ background-image:url(../images/parters02.gif); background-repeat:no-repeat;  padding-left:10px; float:left;}
+
+.fl{ float:left}
+.rightWid{ width:650px}
+#msgTitle{background-color: #E3E3E3; padding:0 3px 0 3px;}
+#msgTime{ width:530px; text-align:right;color:Gray}
+#resumeBg{background-color:#E8F0F1;border:1px #ccc solid}
+.modelTitle{ background-color:#A8BFDC; cursor:pointer; padding-left:5px;}
+.modelTitleDown{ background-color:#A8BFDC; cursor:pointer; padding-left:5px;}

@@ -1,0 +1,24 @@
+﻿body {  background-image:url(images/bg3.gif); background-color:#E3E3E3; text-align:center;font-size: 12px;font-family:Verdana, 宋体, fantasy; margin:0 }
+.width{ width:770px;background-image:url(images/bodybg1.gif);}
+#top{ background-image:url(images/top3.jpg); width:764px; height:120px; text-align:left}
+#bodyTop{ background-image:url(images/bodyTop.gif);width:770px;background-repeat:no-repeat;}
+
+#sav{ background-image:url(images/sav3.jpg); padding:7px; text-align:right;  margin-top:2px}
+
+#sav A
+{
+	color: #000;
+	text-decoration: none;
+}
+.up_bg{ background-image:url(images/leftUp3.gif); padding:4px; text-align:left; background-repeat:no-repeat; font-weight:800; padding:5px 5px 5px 22px;}
+.down_bg{ background-image:url(images/leftDown3.gif); padding:4px; text-align:left; background-repeat:no-repeat; font-weight:800;  padding:5px 5px 5px 22px;}
+
+.border{width:100%; float:left; padding:5px;background-image:url(images/leftbg3.gif)}
+
+.modelTitle{ background-image:url(images/rightUp3.gif); padding:5px 10px 5px 30px;  text-align:left; font:14px; font-weight:800;}
+.modelTitleDown{ background-image:url(images/rightDown3.gif); padding:5px 10px 5px 30px;  text-align:left; font:14px; font-weight:800;}
+
+.item{  width:210px; margin-top:5px; text-align:left}
+
+#msgTitle{background-color: #E3E3E3; padding: 3px}
+#msgTime{ width:530px; text-align:right;color:Gray}

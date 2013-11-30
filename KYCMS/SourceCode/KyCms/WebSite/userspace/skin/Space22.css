@@ -1,0 +1,28 @@
+﻿body {  background-image:url(images/bg5.gif); background-color:#E3E3E3; text-align:center;font-size: 12px;font-family:Verdana, 宋体, fantasy; margin:0 }
+.width{ width:770px;background-image:url(images/bodybg5.gif);}
+#top{ background-image:url(images/top5.jpg); width:770px; height:102px; text-align:left; margin-left:0px}
+
+#sav{ background-image:url(images/sav5.gif); padding:7px; text-align:right;  margin-top:2px; color:#D0C4AA}
+#sav A
+{
+	color:#FFF ;
+	text-decoration: none;
+}
+.up_bg{ background-image:url(images/leftUp5.gif); padding:4px; text-align:left; background-repeat:no-repeat; font-weight:800; }
+.down_bg{ background-image:url(images/leftDown5.gif); padding:4px; text-align:left; background-repeat:no-repeat; font-weight:800; }
+
+.border{ width:100%; float:left; padding:4px;background-image:url(images/leftbg5.gif); border:1px #D0B783 solid}
+
+.modelTitle{ background-image:url(images/rightUp5.gif); background-repeat:no-repeat;padding:8px 5px 8px 25px; font-weight:800; text-align:left}
+.modelTitleDown{ background-image:url(images/rightDown5.gif); background-repeat:no-repeat;padding:8px 5px 8px 25px; font-weight:800; text-align:left}
+.item{  width:210px; margin-top:0px; text-align:left; margin-top:3px}
+
+
+.ShowAlbum{  width:530px}
+
+#msgTitle{background-color: #E3E3E3; padding: 3px}
+#msgTime{ width:530px; text-align:right;color:Gray}
+
+#bodyTop{ background-image:url(images/bodyTop.gif);width:770px; background-repeat:no-repeat;}
+
+

@@ -1,0 +1,311 @@
+﻿BODY
+{
+	font-size: 12px;
+	background: #fff;
+	margin: 0px 0px 0px 0px;
+	color: #000;
+	font-family: Verdana;
+}
+TD
+{
+	font-size: 12px;
+	line-height: 150%;
+	font-family: Verdana;
+}
+SELECT
+{
+	font-size: 9pt;
+	height: 20px;
+}
+FORM
+{
+	margin: 0px 0px 0px 0px;
+}
+A
+{
+	color: #000000;
+	text-decoration: none;
+}
+.b
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.wzdh
+{
+	margin: 0px 0px 0px 0px;
+	border: solid 1px #a3c7e2;
+	background-color: #eef6fb;
+	height: 28px;
+	padding-top: 2px;
+}
+.wzlist
+{
+	background-color: #eef6fb;
+	text-align: left;
+	height: 20px;
+	padding-left: 20px;
+}
+.border
+{
+	margin: 5px 0px 0px 0px;
+	border: solid 1px #a3c7e2;
+	padding: 2px;
+	width: 99%;
+}
+.border1
+{
+	margin: 5px 0px 0px 0px;
+	border-right: #187cae 1px solid;
+	border-top: #187cae 1px solid;
+	border-left: #187cae 1px solid;
+	border-bottom: #187cae 1px solid;
+}
+.border3
+{
+	margin: 5px 0px 0px 0px;
+	border: solid 1px #a3c7e2;
+	padding: 2px;
+}
+.editborder
+{
+	border: solid 1px #a3c7e2;
+	padding: 2px;
+	width: 99%;
+}
+.tl
+{
+	text-align: left;
+}
+.tc
+{
+	text-align: center;
+}
+.tr
+{
+	text-align: right;
+}
+.fl
+{
+	float: left;
+}
+.fr
+{
+	float: right;
+}
+.wrap{ word-break:break-all;}
+.bqleft
+{
+	background: #eef6fb;
+	text-align: right;
+	width: 160px;
+	font-weight: bold;
+}
+.bqright
+{
+	background: #e6e6e6;
+	text-align: left;
+}
+
+
+
+/* 错误提示样式 */
+.error
+{
+	border: solid 1px #f60;
+	background-color: #fff2e9;
+	text-align: center;
+	background: url(../images/skin/default/error.gif) #fff no-repeat 0px 0px;
+	padding-left: 24px;
+	padding-top: 2px;
+	margin-top: 10px;
+	height: 20px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: Red;
+}
+
+
+/* Button 样式 */
+.btn
+{
+	padding: 1px 1px 1px 1px;
+	font-size: 12px;
+	height: 22px;
+	background: url(../images/btnbg.gif);
+	border-right: #999999 1px solid;
+	border-top: #999999 1px solid;
+	border-left: #999999 1px solid;
+	border-bottom: #999999 1px solid;
+}
+
+/* DropDownList(下拉列表)样式 */
+.dropdownlist
+{
+	width: 130px;
+	font-family: 宋体;
+	font-size: 12px;
+	border: solid 1px #7b9ebd;
+}
+
+.inputSingle
+{
+	width: 200px;
+}
+
+
+/*左侧导航菜单样式 */
+.leftdh
+{
+	padding-left: 24px;
+	height: 22px;
+	background: url(../images/skin/default/newitem.gif) #fff no-repeat 12px 6px;
+}
+.leftdh1
+{
+	padding-left: 50px;
+	height: 22px;
+	background: url(../images/skin/default/left_bg_1.jpg) #fff no-repeat center 0px;
+	color: white;
+}
+.lefthr
+{
+	width:90%;
+	background: url(../images/skin/default/lefthr.gif) #fff repeat-x center 0px;
+}
+
+/*文章频道列表样式 */
+.title
+{
+	font-weight: normal;
+	background: #80B4CF;
+	color: #ffffff;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+.tdbg
+{
+	background: #f3f3f3;
+	line-height: 120%;
+	text-align: center;
+}
+.tdbgmouseover
+{
+	background: #C8E2F9;
+	line-height: 120%;
+	text-align: center;
+}
+.tdbgmouseout1
+{
+	background: #ffffff;
+	line-height: 120%;
+	text-align: center;
+}
+.tdbgmouseout2
+{
+	background: #f3f3f3;
+	line-height: 120%;
+	text-align: center;
+}
+
+.title5
+{
+	background: url(../images/skin/default/titlebg2.gif);
+	width: 80px;
+	cursor: hand;
+	line-height: 120%;
+	padding-top: 2px;
+}
+.title6
+{
+	font-weight: normal;
+	background: url(../images/skin/default/titlebg1.gif);
+	width: 80px;
+	cursor: hand;
+	color: #ffffff;
+	padding-top: 2px;
+}
+.cd
+{
+	margin: 5px 0px 0px 0px;
+}
+.voteleft
+{
+	background: #eef6fb;
+	text-align: right;
+	width: 150px;
+	height: 24px;
+}
+.bqright
+{
+	background: #e6e6e6;
+	text-align: left;
+}
+
+/*角色权限样式 */
+.qxright
+{
+	background: #eef6fb;
+}
+.qxborder
+{
+	margin: 3px 0px 3px 0px;
+	background: #ffffff;
+	border-right: #a3c7e2 1px solid;
+	border-top: #a3c7e2 1px solid;
+	border-left: #a3c7e2 1px solid;
+	border-bottom: #a3c7e2 1px solid;
+}
+
+.red
+{
+	color: #ff0000;
+}
+
+.mouseStyle
+{
+	cursor: hand;
+}
+/*input
+{
+	border-right: silver 1px solid;
+	border-top: silver 1px solid;
+	border-left: silver 1px solid;
+	border-bottom: silver 1px solid;
+	border-top-style:expression((this.type=="radio" || this.type=="checkbox")?"none":"");
+	border-right-style:expression((this.type=="radio" || this.type=="checkbox")?"none":"");
+	border-left-style:expression((this.type=="radio" || this.type=="checkbox")?"none":"");
+	border-bottom-style:expression((this.type=="radio" || this.type=="checkbox")?"none":"");
+}*/
+/*提示文字*/
+.LoginInput
+	{
+	border-right: silver 1px solid;
+	border-top: silver 1px solid;
+	border-left: silver 1px solid;
+	border-bottom: silver 1px solid;
+	}
+.tips
+{
+	background-image:url("../images/ico/tips.png");
+	background-repeat:no-repeat;
+	float:left;
+	color:Gray;
+	text-indent:20px;
+}
+
+.bqright1
+{
+	background: #CFE2C0;
+	text-align: left;	
+}
+
+.bqleft1
+{
+	background: #eef6fb;
+	font-weight:600;
+	color:#003366;
+	text-align: right;		
+}

@@ -1,0 +1,29 @@
+﻿body {  background-image:url(images/bg4.gif); background-color:#E3E3E3; text-align:center;font-size: 12px;font-family:Verdana, 宋体, fantasy; margin:0 ;}
+.width{ width:770px;background-image:url(images/bodybg4.gif);}
+#top{ background-image:url(images/top4.jpg); width:764px; height:120px; text-align:left}
+
+#sav{ background-image:url(images/sav4.jpg); padding:7px; text-align:right; color:#FFFF00; margin-top:2px}
+#sav A
+{
+	color: #F7DEAD;
+	text-decoration: none;
+}
+.up_bg{ background-image:url(images/leftUp4.gif); padding:20px; text-align:left; background-repeat:no-repeat; font-weight:800; height:60px}
+.down_bg{ background-image:url(images/leftDown4.gif); padding:20px; text-align:left; background-repeat:no-repeat; font-weight:800; height:60px}
+
+.border{ width:100%; float:left; padding:5px;background-image:url(images/leftbg4.gif)}
+
+.modelTitle{ background-image:url(images/rightUp4.gif); background-repeat:no-repeat;padding:8px 5px 8px 25px; font-weight:800; text-align:left}
+.modelTitleDown{ background-image:url(images/rightDown4.gif); background-repeat:no-repeat;padding:8px 5px 8px 25px; font-weight:800; text-align:left}
+
+.item{  width:210px; margin-top:0px; text-align:left; color:#FFF}
+.item a{ color:#FFF; text-decoration:none}
+.item table{ color:#FFF}
+#ShowAlbum{  width:530px}
+
+#msgTitle{ background-image:url(images/rightUp4.gif); background-repeat:no-repeat;padding:5px 5px 5px 25px;}
+#msgTime{ width:530px; text-align:right;color:Gray}
+#left hr{border:1px dashed #fff; height:1px}
+#bodyTop{ background-image:url(images/bodyTop.gif);width:770px;background-repeat:no-repeat;}
+
+

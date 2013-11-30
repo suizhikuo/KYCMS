@@ -1,0 +1,96 @@
+﻿table{font-size: 12px;}
+A
+{
+	color: #000099;
+	text-decoration: none;
+}
+#Content{width:550px; }
+li{list-style-type:square;}
+/*#top div{ background-image:url(images/bodyTop.gif); width:770px; height:100px; background-repeat:no-repeat}
+#top div{margin-top: 50px; margin-left:110px; font-weight:800; border:1px #000 solid; padding:5px; background-color:#E7E6DA; width:20%; text-align:center}*/
+.fl{ float:left}
+.rightWid{ width:545px}
+.fr{ float:right}
+.tl{ text-align:left}
+.tr{ text-align:right}
+.tc{ text-align:center}
+.cl{ clear:both}
+#box{ padding:3px;}
+#uName{text-align: center; width: 100px; margin-top: 5px}
+.marTop0{ margin-top:0px}
+.margin0{ margin:0 auto;}
+.marTop3{margin-top: 3px}
+.marTop10{ margin-top:10px}
+hr{border:1px dashed #000; height:1px}
+.up_bg{ cursor:pointer;}
+.padding5{ padding:5px}
+.paddingTop5{ padding-top:5px}
+.modelTitle{ cursor:pointer;}
+#right{width: 545px;}
+.widInfo{ width:535px; padding-left:10px}
+.iconBg{ background-image:url(images/card_icon.gif); background-repeat:no-repeat;  padding-left:25px; float:left;}
+/* Button 样式 */
+.btn
+{
+	border: solid 1px #7b9ebd;
+	padding: 1px 2px 1px 2px;
+	font-size: 12px;
+	height: 22px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde);
+	color: black;
+}
+/*#Content{ margin-top:30px}*/
+/*相册样式*/
+.tdStyle{ text-align:center; background:url(images/pic.gif); width:136; height:106; vertical-align:top}
+.tdStyle img{margin-left:-3px;margin-top:6px}
+.layout{
+	width:189px;
+	height:100%;
+	}
+.middleBg{
+	background:url(images/albumbg.jpg) top;
+	width:100%;
+	height:100%;
+	}
+#Msg{ margin-top:20px;width:90%; padding:5px;}
+.wrap{ word-break:break-all; width:200px;}
+
+.bqleft
+{
+	background: eef6fb;
+	text-align: right;
+	width: 30%;
+	font-weight: bold;
+}
+.bqright
+{
+	background: e6e6e6;
+	text-align: left;
+}
+#bodyTop{width:770px; height:30px; padding:10px 10px 0 10px;}
+#top #username{ margin:20px;  font-family:Verdana; font-size:14px; font-weight:800; padding:3px; background-color:#FBFBF8; border:1px solid #999; overflow:auto; filter:alpha(opacity=80); opacity:0.8; float:left}
+#top font{font-size:18px;}
+#top a:hover{ text-decoration:underline;}
+#top #spacename{ clear:both; font-family:Verdana; background-color:#FBFBF8; border:1px solid #999; overflow:auto; filter:alpha(opacity=70); opacity:0.7; float:left; margin:-15px auto auto 40px;color:#006699; }
+
+#copyright{ clear:both;  margin-top:0px;background-image:url(images/bodyTop7.gif);width:770px;background-repeat:no-repeat; background-color:#fff; padding:10px;}
+
+
+#dhtipscontent {
+	BORDER-RIGHT: #ddd 5px solid; BORDER-TOP: #ddd 5px solid;  Z-INDEX: 102; BACKGROUND: white; BORDER-LEFT: #ddd 5px solid;  BORDER-BOTTOM: #ddd 5px solid; 
+}
+#dhtipsdiv {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; Z-INDEX: 101; BACKGROUND: #000; FILTER: alpha(opacity=60); BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; moz-opacity: 0.6; opacity: 0.6
+}
+#dhtipsiframe {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; Z-INDEX: 100; FILTER: alpha(opacity=0); BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; moz-opacity: 0; opacity: 0
+}
+.tipsdiv {
+	OVERFLOW: auto;
+}
+.closediv {
+	HEIGHT: 25px; TEXT-ALIGN: right
+}
+.closebtn {
+	BORDER-RIGHT: buttonshadow 1px solid; BORDER-TOP: buttonshadow 1px solid; RIGHT: 0px; BORDER-LEFT: buttonshadow 1px solid; BORDER-BOTTOM: buttonshadow 1px solid; POSITION: relative; TOP: 0px
+}

@@ -1,0 +1,71 @@
+﻿<html >
+<head>
+    <style>
+   body{font-size:12px;margin:0px} 
+   #Editor{border:solid 1px #cccccc}
+   #dvbtn img{cursor:hand;border:solid 1px #cccccc;heigth:20px;width:20px}
+   #dvbtn input{border:solid 1px #cccccc;cursor:hand;vertical-align:middle;height:23px;width:70px}
+   .mouserover{background-color:#cccccc};
+    </style>
+   <script language="javascript" src="js/kyPageEditor.js"></script>
+</head>
+<body scroll="no">
+<div id="dvBtn">
+<div style="float:left"></div>
+<div id="dvUI" >
+<table cellpadding=0 cellspacing=2 border=0>
+<tr>
+    <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><input type='button' value="代码模式" onclick='SetOtherEditor("Source")' id='btnSource'/> </td>
+    <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img  alt='加粗' onclick='SetEditor("Bold")' src="images/bold.gif"/></td>
+    <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("Italic")' alt='斜体' src="images/italic.gif" /></td> 
+     <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("Underline")' alt='下划线' src="images/underline.gif" /></td> 
+      <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("StrikeThrough")' alt='删除线' src="images/strikethrough.gif"  /></td> 
+        <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("SuperScript")' alt='上标' src="images/superscript.gif" /></td> 
+         <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("SubScript")' alt='下标' src="images/subscript.gif" /></td> 
+          <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("InsertOrderedList")' alt='有序排列' src="images/insertorderedlist.gif" /></td> 
+            <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("InsertUnorderedList")' alt='无序排列' src="images/insertunorderedlist.gif" /></td> 
+             <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("Outdent")' alt='减少缩进量' src="images/Outdent.gif" /></td> 
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("Indent")' alt='增加缩进量' src="images/indent.gif" /></td> 
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("JustifyLeft")' alt='左对齐' src="images/justifyleft.gif" /></td> 
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("JustifyCenter")' alt='居中对齐' src="images/justifycenter.gif"  /></td> 
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("JustifyFull")' alt='两端对齐' src="images/justifyfull.gif"  /></td>
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("JustifyRight")' alt='右对齐' src="images/justifyright.gif"  /></td>  
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("Undo")' alt='撤消' src="images/undo.gif"  /></td>  
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("Redo")' alt='重做' src="images/redo.gif"  /></td>  
+               <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='SetEditor("Delete")' alt='删除' src="images/delete.gif" /></td>
+                                 <td onmousemove="this.className='mouserover'" onmouseout="this.className=''"><img onclick='InsertTable(this)' alt='插入表格' src="images/tablemenu.gif" id="imgInsertTable" /></td>
+                                 
+ 
+
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+<div id="dvEditor">
+<iframe width='100%' height='450px'  frameborder='0' id='Editor' name='Editor' onload='InstanceIframe()'></iframe>
+
+</div>
+<div id="dvShow" style="position: absolute;border:1px gray solid;width:150px;height:150px;text-align:center;visibility:hidden" >
+<iframe src='resource/inserttable.htm' width=100% height=100% frameborder=0 marginheight=0 marginwidth=0 unselectable="on"></iframe>
+</div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿body {  background-image:url(../user/images/bgs.gif); background-color:#E3E3E3; text-align:center;
+font-size: 12px;font-family:Verdana, 宋体, fantasy; margin:0 }
+#sav A
+{
+	color: #FFFF00;
+	text-decoration: none;
+}
+A
+{
+	color: #000099;
+	text-decoration: none;
+}
+
+.width{ width:770px;background-image:url(../user/images/bodyBg.gif);}
+#top{ background-image:url(../user/images/10.jpg); width:764px; height:120px; text-align:left}
+/*#top div{ background-image:url(../user/images/bodyTop.gif); width:770px; height:100px; background-repeat:no-repeat}
+#top div{margin-top: 50px; margin-left:110px; font-weight:800; border:1px #000 solid; padding:5px; background-color:#E7E6DA; width:20%; text-align:center}*/
+#sav{ background-image:url(../user/images/4.gif); padding:7px; text-align:right; color:#FFFF00; margin-top:2px}
+.fl{ float:left}
+.rightWid{ width:545px}
+.fr{ float:right}
+.cl{ clear:both}
+#box{ padding:3px;}
+hr{border:1px dashed #000; height:1px}
+.item{  width:210px; margin-top:5px}
+.up_bg{ background-image:url(../user/images/Up.gif); padding:4px; text-align:left; background-repeat:no-repeat; font-weight:800;}
+.up_bg span{ margin-left:18px;}
+.border{border:#C18546 solid 1px; width:198px; float:left; padding:5px;background-image:url(../user/images/6Bg.gif)}
+.title_space{ padding:5px; background-image:url(../user/images/2Up.gif); text-align:left}
+/* Button 样式 */
+.btn
+{
+	border: solid 1px #7b9ebd;
+	padding: 1px 2px 1px 2px;
+	font-size: 12px;
+	height: 22px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde);
+	color: black;
+}
+#Content{width: 545px; margin-left: 5px;}
+/*相册样式*/
+.tdStyle{ text-align:center; background:url(../user/images/pic.gif); width:136; height:106; vertical-align:top}
+.tdStyle img{margin-left:-3px;margin-top:6px}
+.modelTitle{ background-image:url(../user/images/1Up.gif); padding:5px; width:534px; text-align:left; font-weight:800}
+.square{list-style-type:square;}
+.layout{
+	width:189px;
+	height:100%;
+	}
+.middleBg{
+	background:url(../user/images/albumbg.jpg) top;
+	width:100%;
+	height:100%;
+	}
+.iconBg{ background-image:url(../user/images/card_icon.gif); background-repeat:no-repeat; text-indent:25px; float:left;}

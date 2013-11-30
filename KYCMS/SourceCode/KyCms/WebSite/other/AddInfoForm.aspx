@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="AddInfoForm.aspx.cs" Inherits="other_AddInfoForm" %>

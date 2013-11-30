@@ -1,0 +1,270 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Table0>
+    <ModelId>9</ModelId>
+    <ModelName>企业招聘</ModelName>
+    <ModelDesc />
+    <TableName>Ky_U_Recruitment_1</TableName>
+    <UploadPath>Recruitment</UploadPath>
+    <UploadSize>0</UploadSize>
+    <IsSystem>false</IsSystem>
+    <AddTime>2008-01-15T12:52:14.123+08:00</AddTime>
+    <ModelHtml>&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;单位名称：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input type="text" name="txt_dwname" size="35" value=""&gt; &lt;font color="red"&gt;*&lt;/font&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;工作岗位：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;select name="select_Class" onchange="GetLinkage('select_Class','select_Posts',0)"&gt;&lt;option value="0"&gt;请选择&lt;/option&gt;&lt;option value="235"&gt;房地产/物业类&lt;/option&gt;&lt;option value="234"&gt;咨询/中介/造价类&lt;/option&gt;&lt;option value="233"&gt;市场/营销/公关类&lt;/option&gt;&lt;option value="232"&gt;综合管理类&lt;/option&gt;&lt;option value="231"&gt;施工/监理类&lt;/option&gt;&lt;option value="230"&gt;勘察设计类&lt;/option&gt;&lt;/select&gt;&lt;input type="txt" name="txt_Class" value="0" style="display:none"&gt;&lt;input type="txt" name="txt_Class_Id" value="0" style="display:none"&gt; &lt;select name="select_Posts" onchange="GetSmallLinkage('select_Posts')"&gt;&lt;option value="0"&gt;请选择&lt;/option&gt;&lt;/select&gt;&lt;input type="txt" name="txt_Posts" value="0" style="display:none"&gt;&lt;input type="txt" name="txt_Posts_Id" value="0" style="display:none"&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;工作地点：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;select name="select_Location" onchange="GetLinkage('select_Location','select_city',0)"&gt;&lt;option value="0"&gt;请选择&lt;/option&gt;&lt;option value="510"&gt;北京&lt;/option&gt;&lt;option value="511"&gt;上海&lt;/option&gt;&lt;option value="514"&gt;广东&lt;/option&gt;&lt;option value="513"&gt;江苏&lt;/option&gt;&lt;option value="621"&gt;海外&lt;/option&gt;&lt;option value="620"&gt;台湾&lt;/option&gt;&lt;option value="619"&gt;澳门&lt;/option&gt;&lt;option value="618"&gt;香港&lt;/option&gt;&lt;option value="543"&gt;吉林&lt;/option&gt;&lt;option value="542"&gt;海南&lt;/option&gt;&lt;option value="541"&gt;甘肃&lt;/option&gt;&lt;option value="540"&gt;宁夏&lt;/option&gt;&lt;option value="539"&gt;陕西&lt;/option&gt;&lt;option value="538"&gt;河北&lt;/option&gt;&lt;option value="537"&gt;新疆&lt;/option&gt;&lt;option value="536"&gt;内蒙&lt;/option&gt;&lt;option value="535"&gt;西藏&lt;/option&gt;&lt;option value="534"&gt;河南&lt;/option&gt;&lt;option value="533"&gt;江西&lt;/option&gt;&lt;option value="532"&gt;黑龙江&lt;/option&gt;&lt;option value="531"&gt;福建&lt;/option&gt;&lt;option value="512"&gt;天津&lt;/option&gt;&lt;option value="509"&gt;四川&lt;/option&gt;&lt;option value="507"&gt;重庆&lt;/option&gt;&lt;option value="515"&gt;山东&lt;/option&gt;&lt;option value="516"&gt;辽宁&lt;/option&gt;&lt;option value="517"&gt;青海&lt;/option&gt;&lt;option value="518"&gt;湖南&lt;/option&gt;&lt;option value="519"&gt;湖北&lt;/option&gt;&lt;option value="520"&gt;安徽&lt;/option&gt;&lt;option value="521"&gt;浙江&lt;/option&gt;&lt;option value="522"&gt;贵州&lt;/option&gt;&lt;option value="523"&gt;云南&lt;/option&gt;&lt;option value="524"&gt;广西&lt;/option&gt;&lt;option value="525"&gt;山西&lt;/option&gt;&lt;/select&gt;&lt;input type="txt" name="txt_Location" value="0" style="display:none"&gt;&lt;input type="txt" name="txt_Location_Id" value="0" style="display:none"&gt; &lt;select name="select_city" onchange="GetSmallLinkage('select_city')"&gt;&lt;option value="0"&gt;请选择&lt;/option&gt;&lt;/select&gt;&lt;input type="txt" name="txt_city" value="0" style="display:none"&gt;&lt;input type="txt" name="txt_city_Id" value="0" style="display:none"&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;所属行业：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;select name="txt_Industry"&gt;&lt;option value="建材"&gt;建材&lt;/option&gt;&lt;option value="轻纺"&gt;轻纺&lt;/option&gt;&lt;option value="电子通讯广电"&gt;电子通讯广电&lt;/option&gt;&lt;option value="核工业"&gt;核工业&lt;/option&gt;&lt;option value="商物粮"&gt;商物粮&lt;/option&gt;&lt;option value="机械"&gt;机械&lt;/option&gt;&lt;option value="军工"&gt;军工&lt;/option&gt;&lt;option value="冶金"&gt;冶金&lt;/option&gt;&lt;option value="电力"&gt;电力&lt;/option&gt;&lt;option value="石油天然气"&gt;石油天然气&lt;/option&gt;&lt;option value="化工石化医药"&gt;化工石化医药&lt;/option&gt;&lt;option value="煤炭"&gt;煤炭&lt;/option&gt;&lt;option value="水利"&gt;水利&lt;/option&gt;&lt;option value="市政公用"&gt;市政公用&lt;/option&gt;&lt;option value="铁道"&gt;铁道&lt;/option&gt;&lt;option value="建筑"&gt;建筑&lt;/option&gt;&lt;option value="公路"&gt;公路&lt;/option&gt;&lt;/select&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;工作类型：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input id="txt_gzlx_0" type="radio" name="txt_gzlx" value="全职" checked /&gt;全职&lt;input id="txt_gzlx_1" type="radio" name="txt_gzlx" value="兼职" /&gt;兼职&lt;input id="txt_gzlx_2" type="radio" name="txt_gzlx" value="学生" /&gt;学生&lt;input id="txt_gzlx_3" type="radio" name="txt_gzlx" value="不限" /&gt;不限 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;薪酬待遇：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;select name="txt_Salarie"&gt;&lt;option value="面议"&gt;面议&lt;/option&gt;&lt;option value="800-1000元"&gt;800-1000元&lt;/option&gt;&lt;option value="1001-1500元"&gt;1001-1500元&lt;/option&gt;&lt;option value="1501-3000元"&gt;1501-3000元&lt;/option&gt;&lt;option value="3001-5000元"&gt;3001-5000元&lt;/option&gt;&lt;option value="5001-8000元"&gt;5001-8000元&lt;/option&gt;&lt;option value="8001-20000元"&gt;8001-20000元&lt;/option&gt;&lt;option value="20000元以上"&gt;20000元以上&lt;/option&gt;&lt;/select&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;年龄要求：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input type="text" name="txt_Age" size="35" value=""&gt;  如18-20岁，可填不限&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;学历要求：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;select name="txt_Learn"&gt;&lt;option value="初中以上"&gt;初中以上&lt;/option&gt;&lt;option value="中专以上"&gt;中专以上&lt;/option&gt;&lt;option value="高中以上"&gt;高中以上&lt;/option&gt;&lt;option value="大学以上"&gt;大学以上&lt;/option&gt;&lt;option value="硕士以上"&gt;硕士以上&lt;/option&gt;&lt;option value="博士以上"&gt;博士以上&lt;/option&gt;&lt;option value="其他学历"&gt;其他学历&lt;/option&gt;&lt;/select&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;工作经验：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;select name="txt_Exper"&gt;&lt;option value="不限"&gt;不限&lt;/option&gt;&lt;option value="应届毕业生"&gt;应届毕业生&lt;/option&gt;&lt;option value="一年以上"&gt;一年以上&lt;/option&gt;&lt;option value="两年以上"&gt;两年以上&lt;/option&gt;&lt;option value="三年以上"&gt;三年以上&lt;/option&gt;&lt;option value="四年以上"&gt;四年以上&lt;/option&gt;&lt;option value="五年以上"&gt;五年以上&lt;/option&gt;&lt;/select&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;性别要求：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input id="txt_sex_0" type="radio" name="txt_sex" value="不限" checked /&gt;不限&lt;input id="txt_sex_1" type="radio" name="txt_sex" value="男性" /&gt;男性&lt;input id="txt_sex_2" type="radio" name="txt_sex" value="女性" /&gt;女性 &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;工作部门：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input type="text" name="txt_Department" size="35" value=""&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;招聘人数：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input type="text" name="txt_num" size="35" value=""  onpropertychange="if(/\D/g.test(value))value=value.replace(/\D/g,'')" style="ime-mode:disabled" ondragenter="return false" maxlength="9"&gt;  人（请指出具体招聘多少人，可输入若干）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;招聘开始日期：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input type="text" name="txt_StartDate" size="18" onclick="setday(this);" readonly="true" value=""&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;招聘结束日期：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;input type="text" name="txt_EndDate" size="18" onclick="setday(this);" readonly="true" value=""&gt;  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right" class="bqleft"&gt;职位描述：&lt;/td&gt;
+&lt;td class="bqright"&gt;&lt;textarea name="txt_Description" style="height:130px;width:400px;"&gt;&lt;/textarea&gt;  &lt;/td&gt;
+&lt;/tr&gt;</ModelHtml>
+    <IsHtml>false</IsHtml>
+    <ModelSort>1</ModelSort>
+  </Table0>
+  <Table1>
+    <FieldId>14</FieldId>
+    <ModelId>9</ModelId>
+    <Name>gzlx</Name>
+    <Alias>工作类型</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>RadioType</Type>
+    <Content>2=全职|兼职|学生|不限,Property=True,Default=</Content>
+    <OrderId>4</OrderId>
+    <AddDate>2008-03-02T19:20:13.14+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>15</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Salarie</Name>
+    <Alias>薪酬待遇</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>RadioType</Type>
+    <Content>1=面议|800-1000元|1001-1500元|1501-3000元|3001-5000元|5001-8000元|8001-20000元|20000元以上,Property=True,Default=</Content>
+    <OrderId>6</OrderId>
+    <AddDate>2008-01-15T13:08:32.173+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>16</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Age</Name>
+    <Alias>年龄要求</Alias>
+    <Description>如18-20岁，可填不限</Description>
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>TextType</Type>
+    <Content>TitleSize=35,IsPassword=text,DefaultValue=</Content>
+    <OrderId>7</OrderId>
+    <AddDate>2008-01-15T13:14:55.483+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>17</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Learn</Name>
+    <Alias>学历要求</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>RadioType</Type>
+    <Content>1=初中以上|中专以上|高中以上|大学以上|硕士以上|博士以上|其他学历,Property=False,Default=</Content>
+    <OrderId>9</OrderId>
+    <AddDate>2008-01-15T13:16:13.36+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>18</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Exper</Name>
+    <Alias>工作经验</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>RadioType</Type>
+    <Content>1=不限|应届毕业生|一年以上|两年以上|三年以上|四年以上|五年以上,Property=False,Default=</Content>
+    <OrderId>10</OrderId>
+    <AddDate>2008-01-15T13:16:53.673+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>20</FieldId>
+    <ModelId>9</ModelId>
+    <Name>sex</Name>
+    <Alias>性别要求</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>RadioType</Type>
+    <Content>2=不限|男性|女性,Property=False,Default=</Content>
+    <OrderId>11</OrderId>
+    <AddDate>2008-01-15T13:18:32.187+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>21</FieldId>
+    <ModelId>9</ModelId>
+    <Name>num</Name>
+    <Alias>招聘人数</Alias>
+    <Description>人（请指出具体招聘多少人，可输入若干）</Description>
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>NumberType</Type>
+    <Content>TitleSize=35,DefaultValue=</Content>
+    <OrderId>13</OrderId>
+    <AddDate>2008-01-15T13:19:03.28+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>23</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Department</Name>
+    <Alias>工作部门</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>TextType</Type>
+    <Content>TitleSize=35,IsPassword=text,DefaultValue=</Content>
+    <OrderId>12</OrderId>
+    <AddDate>2008-01-15T13:59:58.313+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>24</FieldId>
+    <ModelId>9</ModelId>
+    <Name>StartDate</Name>
+    <Alias>招聘开始日期</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>DateType</Type>
+    <Content />
+    <OrderId>14</OrderId>
+    <AddDate>2008-01-15T14:01:10.077+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>25</FieldId>
+    <ModelId>9</ModelId>
+    <Name>EndDate</Name>
+    <Alias>招聘结束日期</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>DateType</Type>
+    <Content />
+    <OrderId>15</OrderId>
+    <AddDate>2008-01-15T14:01:59.267+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>26</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Location</Name>
+    <Alias>工作地点</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>ErLinkageType</Type>
+    <Content>YiId=506,Er_Alias=市,Er_Name=city</Content>
+    <OrderId>2</OrderId>
+    <AddDate>2008-01-15T14:08:17.423+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>27</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Industry</Name>
+    <Alias>所属行业</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>RadioType</Type>
+    <Content>1=建材|轻纺|电子通讯广电|核工业|商物粮|机械|军工|冶金|电力|石油天然气|化工石化医药|煤炭|水利|市政公用|铁道|建筑|公路,Property=False,Default=</Content>
+    <OrderId>3</OrderId>
+    <AddDate>2008-01-15T15:12:42.343+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>28</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Description</Name>
+    <Alias>职位描述</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>MultipleTextType</Type>
+    <Content>Width=400,Height=130</Content>
+    <OrderId>16</OrderId>
+    <AddDate>2008-01-15T15:13:53.75+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>29</FieldId>
+    <ModelId>9</ModelId>
+    <Name>Class</Name>
+    <Alias>工作岗位</Alias>
+    <Description />
+    <IsNotNull>false</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>ErLinkageType</Type>
+    <Content>YiId=150,Er_Alias=专业,Er_Name=Posts</Content>
+    <OrderId>1</OrderId>
+    <AddDate>2008-01-15T15:17:20.657+08:00</AddDate>
+  </Table1>
+  <Table1>
+    <FieldId>134</FieldId>
+    <ModelId>9</ModelId>
+    <Name>dwname</Name>
+    <Alias>单位名称</Alias>
+    <Description />
+    <IsNotNull>true</IsNotNull>
+    <IsSearchForm>false</IsSearchForm>
+    <Type>TextType</Type>
+    <Content>TitleSize=35,IsPassword=text,DefaultValue=</Content>
+    <OrderId>0</OrderId>
+    <AddDate>2008-02-27T11:08:00.877+08:00</AddDate>
+  </Table1>
+</NewDataSet>

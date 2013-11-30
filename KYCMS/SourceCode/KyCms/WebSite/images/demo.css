@@ -1,0 +1,140 @@
+﻿/*酷源科技-主样式表 胡显明 2007年12月 */
+IMG  {BORDER: 0px;}
+.pic{border:1px #000 solid; margin-top:5px;}
+.navimg{padding-top:6px}
+ul,li{margin:0px;padding:0px;}
+p{margin:0px;padding-top:12px;}
+body{
+	 MARGIN: 0px; FONT: 12px/200% 新宋体;TEXT-ALIGN: center; TEXT-DECORATION: none;BACKGROUND: #808080; COLOR: #000000
+
+}
+A {
+	COLOR: #48484A; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+a:hover {
+	color: #FF3300;text-decoration:underline
+}
+#lili{list-style:none;text-align:left}
+.time{color:#a19f9f}
+input {
+	BORDER:#b2b2b2 1px solid;PADDING:0px;HEIGHT:17px
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000; LINE-HEIGHT: 20px
+}
+/*定义全局*/
+#demo{
+	margin:0 auto;
+	WIDTH: 940px;
+	BACKGROUND: #FFF;
+	TEXT-ALIGN: center;
+	overflow: hidden;
+	border-left:#ffffff 15px solid;
+	border-right:#ffffff 15px solid;
+	height:auto
+}
+
+/*顶部*/
+#top{ background-image:url(top.gif);height:3px;overflow:hidden;}
+#logo{ background-image:url(logo.gif);float:left;width:222px;height:88px;cursor:hand}
+
+/*登录*/
+#login{padding-top:2px;float:left;height:38px;line-height:32px;width:714px;}
+#login form{MARGIN:0px;}
+#login input {MARGIN:1px;}
+/*频道导航*/
+#channel{width:718px;background-image:url(channelbj.gif);height:88px;overflow:hidden;float:left}
+#cnlist{width:714px;}
+#cnNavUL {height:26px;width:100%;list-style:none;padding-left:4px;}
+#cnNavUL li{line-height:20px;width:71px;float:left;}
+#cnNavUL li a{color:#000;display:block;text-decoration:none;}
+#cnNavUL li a:hover{color:#990000;display:block;text-decoration:none}
+
+/*广告 栏目导航*/
+#lmdh{float:left;height:103px;width:730px;padding-bottom:4px}
+#push01{float:left;width:730px;}
+#push02{float:left;width:210px;}
+#lmall{float:left;width:730px;text-align:left;border-bottom:#d1a797 2px solid;height:24px;}
+#lmlist{color:#d56239;width:630px;float:left;height:16px;line-height:16px;padding-top:8px}
+#picdh{float:left;width:100px;padding-top:6px}
+
+/*导航 搜索 */
+#wzdh{color:#48484A;width:625px;background-image:url(dhbj.gif);height:26px;line-height:26px;text-align:left;padding-left:5px;padding-top:3px;float:left;border-top:#d2d2d2 1px solid;}
+#soso{width:310px;background-image:url(dhbj.gif);text-align:left;float:left;height:26px;line-height:26px;padding-top:3px;border-top:#d2d2d2 1px solid;}
+#soso form{MARGIN:0px;}
+#soso input {MARGIN:1px;}
+
+/*部分特殊效果*/
+ .num { float:left; background:url(onebj.gif) no-repeat; width:13px; height:11px; text-align:center; line-height:10px; font-size:10px; color:#fff; margin:5px 4px 0 6px;}
+#order li {list-style:none;text-align:left;height:22px; background:url(line.gif) repeat-x 0 bottom; line-height:22px;}
+
+
+/*中部 */
+#leftall{width:732px;float:left;margin:0 auto; overflow:hidden}/*比实际长度宽 显示2行效果*/
+#left{width:726px;float:left; margin-top:4px;}
+#right{width:208px;float:right;}
+
+/*中部左一 */
+#flash{float:left;width:340px; overflow:hidden}
+#xwkd{float:left;width:376px;padding-left:10px;}
+#xwkdone{text-align:left;background-image:url(xwkd01bg.gif);height:24px;width:376px; margin-bottom:2px;}
+#xwkdtwo{text-align:left; font-size:14px;color:#333333;line-height:26px;}
+
+/*中部右一 */
+#rightbg{ background-image:url(rightbg.jpg);height:24px;margin-top:5px;font-weight: bold;padding-left:20px;text-align:left}
+#rightlist{height:auto;line-height:22px;border-left:#d2d2d2 1px solid;border-bottom:#d2d2d2 1px solid;border-right:#d2d2d2 1px solid;}
+
+/*中部右广告*/
+#push{border:#d2d2d2 1px solid;margin-top:5px;}
+
+/*中部左二兼栏目循环 */
+#ch_col{border:#d2d2d2 1px solid;width:358px;float:left;height:273px;margin-top:5px;margin-right:6px;}
+#col_subcol{border:#d2d2d2 1px solid;width:358px;float:left;height:273px;margin-top:5px;margin-right:6px;}
+#ring{float:left;width:16px;height:31px;background-image:url(newslmbj.jpg);text-align:right}
+#ringwz{width:210px;float:left;height:26px;line-height:26px;}
+#newslm{float:left;background-image:url(newslmbj.jpg);width:358px;text-align:left;font-weight: bold;}
+#more{float:right;width:40px;height:31px;background-image:url(newslmbj.jpg);}
+#newslist{float:left;font-size:14px;width:356px;height:auto;text-align:left; overflow:hidden;padding-left:2px;}
+
+
+/*中部图片 */
+#picbj{ background-image:url(picbj.jpg);height:32px;text-align:left;padding-left:48px;font-weight: bold;font-size:14px;padding-top:2px;}
+#picall{border-left:#d2d2d2 1px solid;border-bottom:#d2d2d2 1px solid;border-right:#d2d2d2 1px solid;text-align:center;height:125px;padding-left:2px;}
+#pic{float:left; padding-left:6px;padding-right:6px;}
+.picsize{padding-top:3px;margin:0px;}
+
+/*终极列表*/
+#news3{border:#d2d2d2 1px solid;width:724px;float:left;margin-top:2px;}
+#newslm2{float:left;background-image:url(newslmbj.jpg);width:724px;text-align:left;font-weight: bold;}
+#newslist2{float:left;font-size:14px;width:724px;text-align:left}
+
+/*新闻内容页*/
+#contentleft{width:612px;float:left;margin-top:5px;border:#d2d2d2 1px solid}
+#contentright{width:320px;float:right;margin-top:5px;}
+#push03{width:320px;height:240px;overflow:hidden}
+#jdxw{ background-image:url(jdxw.gif);height:26px;width:318px;margin-top:5px;border:#d2d2d2 1px solid}
+
+/*评论和精彩图文*/
+#review{border:#d2d2d2 1px solid;margin-top:5px;margin-bottom:5px;width:98%;margin-left:auto;margin-right:auto;}
+#reviewbj{border-bottom:#d2d2d2 1px solid;text-align:left;FONT-WEIGHT:bold;padding-left:12px; background-color:#F1F1F2;height:24px;line-height:24px;margin-bottom:4px;}
+#jctwpic{text-align:center;height:128px;padding-left:13px;}
+#sjjdpic{text-align:center;height:246px;padding-left:13px;}
+/*新闻正文*/
+.title{FONT-WEIGHT:bold;FONT-SIZE:22px;PADDING-BOTTOM:12px;MARGIN:0px auto;WIDTH:596px;PADDING-TOP:13px;border-bottom:1px solid #E8E8E8;}
+#content{font-size:14px;text-align:left;margin:6px;text-indent:20px;}
+#print{color:#666;text-align:right;padding-right:10px}
+
+/*正文右侧*/
+#tjtp{background:#D8EBFC;font-weight:bold;padding-left:12px;text-align:left;border:#d2d2d2 1px solid;margin-top:5px;}
+#hot{background:#FBF8D9;font-weight:bold;padding-left:12px;text-align:left;border:#d2d2d2 1px solid;margin-top:5px;}
+/*间隙*/
+#line{margin:0 auto;height:6px;overflow:hidden; background:#FFFFFF;border-left:#ffffff 15px solid;border-right:#ffffff 15px solid;WIDTH: 940px;}
+
+/*底部*/
+#bottom{margin:0 auto;background-image:url(bottombg.gif);height:100px;
+	WIDTH: 940px;color:#666666;
+	TEXT-ALIGN: center;
+	overflow: hidden;
+	border-left:#ffffff 15px solid;
+	border-right:#ffffff 15px solid;}
+.bottom{height:20px;line-height:20px;margin:0px;padding:0px}

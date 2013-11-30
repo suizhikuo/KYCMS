@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Master Language="C#" AutoEventWireup="true" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+<%@ Import Namespace="Ky.Common" %>
+<%@ Import Namespace="Ky.BLL" %>
+<%@ Import Namespace="Ky.BLL.CommonModel" %>
+<%@ Import Namespace="Ky.Model" %>
+<%@ Import Namespace="Ky.SQLServerDAL" %>
+<script runat="server" language="c#">
+    int userId = 0;
+    B_User userBll = new B_User();
+   
+    DataRow userDr = null;
+    int templateId_1 = 26;
+    int templateId_2 = 27;
+    int e_spaceTypeId = 2; 
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (!string.IsNullOrEmpty(Request.QueryString["uid"]))
+        {
+            try
+            {
+                userId = Convert.ToInt32(Request.QueryString["uid"]);
+            }
+            catch { }  
+        }
+        userDr = userBll.GetUserAllInfo(userId);
+        if (userDr == null)
+        {
+            Function.ShowMsg(0, "<li>用户空间参数错误</li><li><a href='javascript:history.back();'>返回上一级</a></li>"); 
+        }
+        int spaceTypeId = int.Parse(userDr["spacetypeid"].ToString());
+
+        if (spaceTypeId != e_spaceTypeId)
+            Function.ShowMsg(0, "<li>用户空间参数错误</li><li><a href='javascript:history.back();'>返回上一级</a></li>");
+
+        B_UserSpace.IsActive(userId, 2);
+        SetTemplate(userId);
+        BindEnterpriseInfoList(userId);
+        BindInfoList(userId); 
+        
+    }
+
+    private void SetTemplate(int userId)
+    {
+        B_UserSpace spaceBll = new B_UserSpace();  
+        M_UserSpace spaceModel = spaceBll.GetUserSpaceById(userId);
+        int templateId = spaceModel.TemplateId;
+        if (spaceModel.TemplateId == templateId_1 || spaceModel.TemplateId == templateId_2)
+        {
+            litTemplate.Text = string.Format("<link rel='stylesheet' type='text/css' href='css/{0}.css' />", templateId);
+        }
+        else
+        {
+            litTemplate.Text = string.Format("<link rel='stylesheet' type='text/css' href='css/{0}.css' />", templateId_1);
+        } 
+    }
+     
+    private void BindEnterpriseInfoList(int userId)
+    {
+        const int typeId = 75; //数据字典中企业新闻的键值编号
+        string sqlStr = "select *  from [kyenterprise] where [userid]=@userid and [typeid]=@typeid";
+        SqlParameter[] parameters = new SqlParameter[2];
+        parameters[0] = new SqlParameter("@userid", userId);
+        parameters[1] = new SqlParameter("@typeid", typeId);
+        DataTable dtInfo = SqlHelper.ExecuteTable(SqlHelper.ConnectionStringKy, CommandType.Text, sqlStr, parameters);
+        if (dtInfo.Rows.Count == 0)
+        {
+            TrInfo.Visible = true;
+        }
+        else
+        {
+            repInfoList.DataSource = dtInfo.DefaultView;
+            repInfoList.DataBind();
+            dtInfo.Dispose();
+        }
+    }
+
+    private void BindInfoList(int userId)
+    {
+        string sqlStr = "select top 200 * from Ky_U_Recruitment where Uid=@userid";
+        SqlParameter[] parameters = new SqlParameter[1];
+        parameters[0] = new SqlParameter("@userid", userId);
+        DataTable dtInfo = SqlHelper.ExecuteTable(SqlHelper.ConnectionStringKy, CommandType.Text, sqlStr, parameters);
+        repEmploy.DataSource = dtInfo.DefaultView;
+        repEmploy.DataBind();
+        dtInfo.Dispose();
+    }  
+
+    string UserInfo(DataRow dr,string fieldName)
+    {
+        if (dr != null)
+        {
+            if (dr.Table.Columns.Contains(fieldName))
+            {
+                return dr[fieldName].ToString();
+            }
+            else
+            {
+                return string.Empty;
+            }
+        }
+        else
+        {
+            return string.Empty;
+        } 
+    }
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script type="text/javascript" src="../../js/Common.js"></script>
+    <asp:Literal runat="server" ID="litTemplate"></asp:Literal>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="width">
+            <table border="0" cellpadding="0" cellspacing="0" width="900" style="background-image: url(images/bodyTop.gif);
+                padding: 10px;">
+                <tr>
+                    <td align="left">
+                        现在是： <script>var d=returnDate();document.write(d);</script>
+                    </td>
+                    <td>
+                        &nbsp;</td>
+                    <td align="right">
+                        <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('<%= Request.Url.ToString() %>')"
+                        style="cursor: hand">设为首页</a> | <a href="Contact.aspx?UId=<%=UserInfo(userDr,"userid") %>">联系我们</a> | <a href="javascript:window.external.AddFavorite('<%= Request.Url.ToString() %>','企业<%=UserInfo(userDr,"logname") %>的空间')"
+                            target="_top">加入收藏</a></td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="logo" style="background-image: url(<%=Param.ApplicationRootPath %>/upload/user/<%=UserInfo(userDr,"logo") %>)">
+                <tr>
+                    <td height="80" align="left">
+                        <strong><%=UserInfo(userDr,"name")%></strong></td>
+                </tr>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="dhbj">
+                <tr>
+                    <td width="80" height="30">
+                        &nbsp;</td>
+                    <td>
+                        <a href="Index.aspx?UId=<%=userId %>">首 页</a></td>
+                    <td width="2" class="dhjx">
+                    </td>
+                    <td>
+                        <a href="Introduce.aspx?UId=<%=userId %>">公司介绍</a></td>
+                    <td width="2" class="dhjx">
+                    </td>
+                    <td>
+                        <a href="enterpriseInfo.aspx?UId=<%=userId %>">公司新闻</a></td>
+                    <td width="2" class="dhjx">
+                    </td>
+                    <td>
+                        <a href="employment.aspx?UId=<%=userId %>">最新招聘</a></td>
+                    <td width="2" class="dhjx">
+                    </td>
+                    <td>
+                        <a href="CompanyAlbum.aspx?UId=<%=userId %>">公司相册</a></td>
+                    <td width="2" class="dhjx">
+                    </td>
+                    <td>
+                        <a href="certificate.aspx?UId=<%=userId %>">资质证书</a></td>
+                    <td width="2" class="dhjx">
+                    </td>
+                    <td>
+                        <a href="OnlineMessage.aspx?UId=<%=userId %>#Msg">在线留言</a></td>
+                    <td width="2" class="dhjx">
+                    </td>
+                    <td>
+                        <a href="Contact.aspx?UId=<%=userId %>">联系方式</a></td>
+                    <td width="10">
+                        &nbsp;</td>
+                </tr>
+            </table>
+            <table border="0" cellspacing="0" cellpadding="0" class="dhbj" style="float: left">
+                <tr>
+                    <td width="210" valign="top">
+                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td style="width: 211px">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="leftbk">
+                                        <tr>
+                                            <td style="width: 211px">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0" class="leftbk">
+                                                    <tr>
+                                                        <td width="" height="30" align="left" class="leftbj" style="padding-left: 10px;">
+                                                            <img src="images/jian.gif" width="9" height="9">
+                                                            公司LOGO</td>
+                                                        <td align="left" class="leftbj">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="120" colspan="2" class="leftlist" valign="top">
+                                                            <img src="images/logo11.gif" width="200px" height="100px" />
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="5" style="width: 211px">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td width="" height="30" align="left" class="leftbj" style="padding-left: 10px;">
+                                                <img src="images/jian.gif" width="9" height="9">
+                                                公司新闻</td>
+                                        </tr>
+                                        <tr>
+                                            <td height="120" colspan="2" class="leftlist" valign="top" align="left">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <asp:Repeater runat="server" ID="repInfoList">
+                                                        <ItemTemplate>
+                                                            <tr>
+                                                                <td style="border-bottom: 1px dashed #ccc; padding-left: 10px; padding: 5px;">
+                                                                    <img src="images/lp.gif" />
+                                                                    <a href='PreInfo.aspx?Id=<%#Eval("Id") %>&UId=<%#userId %>' target="_blank"><%#Eval("Title") %></a>
+                                                                </td>
+                                                            </tr>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>
+                                                    <tr id="TrInfo" runat="server" visible="false"><td colspan="2">·暂无新闻</td></tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5" style="width: 211px">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="width: 211px">
+                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="leftbk">
+                                        <tr>
+                                            <td width="" height="30" align="left" class="leftbj" style="padding-left: 10px;">
+                                                <img src="images/jian.gif" width="9" height="9">
+                                                最新招聘</td>
+                                            <td align="left" class="leftbj">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td height="120" colspan="2" class="leftlist" valign="top" align="left">
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                    <asp:Repeater runat="server" ID="repEmploy">
+                                                        <ItemTemplate>
+                                                            <tr>
+                                                                <td style="border-bottom: 1px dashed #ccc; padding-left: 10px;">
+                                                                    <img src="images/lp.gif" />
+                                                                    <a href='../../Info.aspx?ModelId=9&Id=<%#Eval("Id") %>' target="_blank">
+                                                                        <%#Eval("Title") %>
+                                                                    </a>
+                                                                </td>
+                                                            </tr>
+                                                        </ItemTemplate>
+                                                    </asp:Repeater>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5" style="width: 211px">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <!-- 版权信息 -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="bottom">
+                <tr>
+                    <td height="24" align="center">
+                        成都酷源科技有限公司(版权所有)</td>
+                </tr>
+                <tr>
+                    <td height="20" align="center">
+                        地址：中国 四川 成都 高升桥东路19号14栋8单元3-1</td>
+                </tr>
+                <tr>
+                    <td height="20" align="center">
+                        技术支持：<a href="http://www.kycms.com" target="_blank">成都酷源科技有限公司</a></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
+
+<script type="text/javascript">
+</script>
+

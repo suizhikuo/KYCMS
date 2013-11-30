@@ -1,0 +1,110 @@
+* { word-break: break-all; }
+body { background: #fff; text-align: center; }
+body, td, input, textarea, select, button { color: #666; font: 12px/160% helvetica, arial, sans-serif; }
+
+body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset { margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6 { font-size: 12px; }
+ul,li { list-style: none; }
+a { color: #777; text-decoration: none; }
+	a:hover { text-decoration: underline; }
+	a img { border: none; }
+.b { color: #777; text-decoration: none;}
+	.b:hover { text-decoration: underline; color: #777; }
+	.b img { border: none; }
+em, cite, strong, th { font-style: normal; font-weight: normal; }
+table { empty-cells: show; border-collapse: collapse; }
+.clearer { overflow:hidden; zoom:1; }
+#wraper{ width: 940px; margin: 0 auto; background:#fff; text-align:left;}
+#header {width:100%;height:90px;}
+	#header h2 { float:left; width:272px; padding-top:10px; padding-left:9px;}
+		#header h2 span { position: absolute; left: -5000px;}
+	.headerright { float:right; width:465px; }	
+		.submenu{ position:relative; text-align:right; padding-right:6px; padding-top:18px;}
+			.new { position:absolute; right:38px; top:6px;}
+			.submenu a{ color:#000; padding:0 4px;}
+			.submenu a:hover { color:#666;}
+		.navsearch { padding-top:40px; }
+
+		.searchbutton{width:78px; height:33px; background: url(../images/searchbutton.jpg) no-repeat center center; border:0;}
+/* ~~~~~~~~~~~~~~~~ menu style ~~~~~~~~~~~~~~~~ */
+#menu { border:1px solid #e8e8e8;padding-left:2px;}
+.menubar{ line-height:33px; height:34px; background:url(../images/menubg.jpg) repeat-x left top;}
+	.menubar li { float:left; text-align: center; background:url(../images/menuline.jpg) no-repeat right center;}
+		.menubar li a:link, .menubar li a:visited { display:block; color: #666;padding:0 12px;}
+		.menubar li a:hover,.menubar li a:active { display:block; padding:0 12px; color: #000; text-decoration:none;}
+			.menubar .nobackground{ background:none;}
+			.menubar .uploadvideo {padding-left:150px; padding-right:0;}
+				.menubar .uploadvideo a:link, .menubar .uploadvideo a:visited, .menubar .uploadvideo a:hover,.menubar .uploadvideo a:active { padding:0;}
+				.menubar .makevideo a:link,.menubar .makevideo a:visited, .menubar .makevideo a:hover,.menubar .makevideo a:active { padding:0;}
+/* ~~~~~~~~~~~~~~~~ menu style ~~~~~~~~~~~~~~~~ */
+#videobody { clear:both; overflow:hidden; zoom:1; width:100%;}
+	.bodycolleft { float:left; width:673px;}
+	.bodycolright { float:right; width:260px;}
+	
+	.videoblockouter { overflow:hidden; zoom:1; float:left; background-color:#efefef; margin-top:11px;}
+		.videoblockinner { overflow:hidden; zoom:1; background-color:#fff; margin:2px; padding:1px; border:1px solid #c0c0c0;}
+		.videotabs { width:403px;}
+		.videotabs h2,.videoshow h2,.videotype h2{ background:url(../images/videotabbg.jpg) repeat-x left top; line-height:27px;}
+			.videotabs h2 a,.videotype h2 a{ padding:0 9px; font-weight:bold; background:url(../images/tabsline.jpg) no-repeat right center; color:#999; text-decoration:none;}
+			.videotabs h2 a:hover,.videoshow h2 a:hover,.videotype h2 a:hover{text-decoration:none;}
+			.videocontent { padding: 5px 7px 2px;}
+			.familyforum { width:100%;}
+		.familyforum h2,.familyforum h3 {padding-left:9px; text-align:right; font-weight:normal; padding-right:10px; background:#f3f3f3; border-bottom:1px solid #ccc;line-height:27px;}
+			.familyforum h3 a{color:#ff0000;}
+			.familyforum strong,.familyforum span {display:block; float:left; width:160px; text-align:left; font-weight:700;}
+				.familyforum span a { color:#999;font-weight:300;}
+			.familyforum li {line-height:160%;}
+			.videolistbody{clear:both;}
+.videobodyleft {float:left; width:253px;}
+.videobodyright {float:right; width:680px;}
+
+
+
+	.videoform { float:left; width:60%; color:#3366CC; text-align:left; word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+	.videotype { width:100%;}
+	.videotype h2 a {font-weight:normal;}
+		.navvideo { float:left; width:48%; border-bottom:1px dashed #D5DDDC;margin:4px;padding:4px 0;}
+			.navphoto {float:left; width:120px;}
+			.videophoto { width:112px;border:1px solid #E9E9E9; }
+			.videophotoon { width:112px; border:1px solid #FF8000; background:#FFF7EE;}
+				.navvideo img {margin:5px;}
+			.videointro { float:right; width:195px; word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+				.videointro h3 a{color:#009A91; font-size:14px;}
+				.videointro P a{color:#009A91;}
+
+.videopage { clear:both; height:40px; line-height:40px; text-align:right; padding-right:15px;}
+	.videopage a{ background:#fff; border:1px solid #b6cfcd; margin:0 6px; text-align:center; cursor:pointer; color:#74A8ED; padding:0 6px; text-decoration:none;}
+	.videopage a:hover,a.currentpage{ padding:4px; background:#009a91; border:1px solid #b6cfcd; margin:0 6px; text-align:center; cursor:pointer; color:#fff; font-weight:bold; padding:1px 6px; text-decoration:none;}
+	
+	.navvideoothermessage {clear:both; overflow:hidden; zoom:1;}
+	.othermessageleft { float:left; width:575px;}
+	.othermessageright { float:right; width:360px;}
+		.navrighttop { margin-top:11px; background:url(../images/navrightbg.jpg) repeat-x left top; line-height:28px; height:28px;}
+		.navrighttop strong{display:block;float:left; width:150px; text-align:left; background:url(../images/rightdot.jpg) no-repeat left top; font-weight:bold; padding-left:25px; font-size:14px;}
+
+			.navrightbottom em {background:none; text-align:right;}
+		.navrightbottom strong {display:block; float:left; width:150px; text-align:left; font-size:14px;}
+		.importantuser li {clear:both;  color:#000;}
+
+			.navrightcenter {clear:both; border:1px solid #ededed;padding:9px;}
+.videouser li {padding:5px 0;}
+*html .videouser li {padding:0;}
+.importantuser li dl{ clear:both;}
+	.importantuser li dt{ float:left; width:100px; word-break:keep-all; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+		.importantuser li dt a{display:block;border:1px solid #e9e9e9;padding:3px; width:88px;}
+	.importantuser li dd{ float:right; width:230px;}
+		.importantuser li dd h3 {font-weight:normal; color:#009a91; text-decoration:underline;}
+		.importantuser li dd p em {color:#9a9a9a; padding-right:2px;}
+		.importantuser li dd p strong {color:#ff8400; font-weight:bold; padding-right:4px;}
+		.importantuser li dd p cite  a{color:#009a91;}
+ul.videomessagleft {float:left; width:500px;}
+ul.videomessagright {float:right; width:266px;}
+	.navvideomessage ul {margin-top:5px; margin-left:7px;}
+	.navvideomessage li {float:left;line-height:26px;}
+		.videoitemborder {border:1px solid #c8cccd; margin-right:7px;}
+		.videoitemone {background:url(../images/picdot.jpg) no-repeat 6px 6px; padding-left:25px; padding-right:8px;}
+		.videoitemtwo {background:url(../images/picdot.jpg) no-repeat 6px -36px; padding-left:25px; padding-right:8px;}
+		.videoitemthree{background:url(../images/picdot.jpg) no-repeat 6px -76px; padding-left:25px; padding-right:8px;}
+		.videoitemfour {background:url(../images/picdot.jpg) no-repeat 6px -116px; padding-left:25px; padding-right:8px;}
+
+		

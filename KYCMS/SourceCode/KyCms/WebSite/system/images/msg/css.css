@@ -1,0 +1,28 @@
+body {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+}
+tr {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+}
+td {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+}
+.f24 {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	font-size: 24px;
+}
+.td-3 {
+	font-family: "Verdana", "Arial", "Helvetica", "sans-serif";
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CFCDD0;
+	border-bottom-color: #CFCDD0;
+	border-left-color: #CFCDD0;
+}

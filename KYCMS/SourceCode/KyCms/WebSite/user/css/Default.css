@@ -1,0 +1,447 @@
+﻿
+BODY
+{
+	font-size: 12px;
+	background: #fff;
+	margin: 0px 0px 0px 0px;
+	color: #000;
+	font-family: tahoma, 宋体, fantasy;
+}
+TD
+{
+	font-size: 12px;
+	line-height: 150%;
+	font-family: 宋体;
+}
+SELECT
+{
+	font-size: 9pt;
+	height: 20px;
+}
+FORM
+{
+	margin: 0px 0px 0px 0px;
+}
+A
+{
+	color: #06A;
+	text-decoration: none;
+}
+A:hover
+{
+	color:#039;
+	text-decoration:underline;
+}
+.wzdh
+{
+	margin: 10px 0px 4px 0px;
+	padding:2px 0 2px 0;
+	border: solid 1px #BFD9FF;
+	background-color: #F0F8FB;
+}
+.wzlist
+{
+	background-color: #F0F8FB;
+	text-align: left;
+	border: solid 1px #BFD9FF;
+	padding:2px 0 2px 20px;
+}
+.border1
+{
+	margin: 5px 0px 0px 0px;
+	border: solid 1px #187cae;
+}
+.editborder
+{
+	border: solid 1px #D8D8D8;
+	margin: 2px 0px 0px 0px;
+	width: 99%;
+}
+.tl
+{
+	text-align: left;
+}
+.tc
+{
+	text-align: center;
+}
+.tr
+{
+	text-align: right;
+}
+.fl
+{
+	float: left;
+}
+.fr
+{
+	float: right;
+}
+.bqleft
+{
+	color:#000;
+	background: #BFD9FF;
+	text-align: right;
+	width: 160px;
+	font-weight: bold;
+}
+.bqright
+{
+	background: #F0F8FB;
+	text-align: left;
+}
+
+
+
+/* 错误提示样式 */
+.error
+{
+	border: solid 1px #f60;
+	background-color: #fff2e9;
+	text-align: center;
+	background: url(../images/skin/default/error.gif) #fff no-repeat 0px 0px;
+	padding-left: 24px;
+	padding-right:20px;
+	padding-top: 2px;
+	margin-top: 10px;
+	height: 20px;
+	font-family: Verdana;
+	font-size: 12px;
+	color: Red;
+}
+/*提示文字*/
+.tips
+{
+	background-image:url("../images/tips.png");
+	background-repeat:no-repeat;
+	float:left;
+	color:Gray;
+	text-indent:20px;
+}
+
+/* Button 样式 */
+.btn
+{
+	border: solid 1px #7b9ebd;
+	padding: 1px 2px 1px 2px;
+	font-size: 12px;
+	height: 22px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde);
+	color: black;
+}
+
+/* DropDownList(下拉列表)样式 */
+.dropdownlist
+{
+	width: 130px;
+	font-family: 宋体;
+	font-size: 12px;
+	border: solid 1px #7b9ebd;
+}
+
+.inputSingle
+{
+	width: 200px;
+}
+
+
+/*左侧导航菜单样式 */
+.leftdh
+{
+	padding-left: 24px;
+	height: 22px;
+	background: url(../images/skin/default/newitem.gif) #fff no-repeat 12px 6px;
+}
+.leftdh1
+{
+	padding-left: 38px;
+	height: 27px;
+	background: url(../images/skin/default/leftmenubj.gif) #fff no-repeat 0px 0px;
+}
+
+
+/*文章频道列表样式 */
+.title
+{
+	font-weight: Bold;
+	background: #BFD9FF;
+	color: #06A;
+	height: 24px;
+	text-align: center;
+}
+.tdbg
+{
+	background: #F0F8FB;
+	line-height: 120%;
+	text-align: center;
+}
+.tdbgmouseover
+{
+	background: #FFF;
+	line-height: 120%;
+	text-align: center;
+}
+.tdbgmouseout1
+{
+	background: #ffffff;
+	line-height: 120%;
+	text-align: center;
+}
+.tdbgmouseout2
+{
+	background: #f3f3f3;
+	line-height: 120%;
+	text-align: center;
+}
+
+.title5
+{
+	background: url(../images/skin/default/titlebg2.gif);
+	width: 80px;
+	cursor: hand;
+	line-height: 120%;
+	padding-top: 2px;
+}
+.title6
+{
+	font-weight: normal;
+	background: url(../images/skin/default/titlebg1.gif);
+	width: 80px;
+	cursor: hand;
+	color: #ffffff;
+	padding-top: 2px;
+}
+.cd
+{
+	margin: 5px 0px 0px 0px;
+}
+
+.border
+{
+	margin: 5px 0px 0px 0px;
+	border:solid  1px #BFD9FF;
+	width:99%;
+}
+.bqleft
+{
+	background: #F0F8FB;
+	text-align: right;
+	width: 120px;
+}
+.bqright
+{
+	background: #F0F8FB;
+	text-align: left;
+}
+
+/*角色权限样式 */
+.qxright
+{
+	background: #eef6fb;
+}
+.qxborder
+{
+	margin: 3px 0px 3px 0px;
+	background: #ffffff;
+	border-right: #a3c7e2 1px solid;
+	border-top: #a3c7e2 1px solid;
+	border-left: #a3c7e2 1px solid;
+	border-bottom: #a3c7e2 1px solid;
+}
+
+.red
+{
+	color: #ff0000;
+}
+
+.mouseStyle
+{
+	cursor: hand;
+}
+
+/* 文本框 */
+.textbox
+{
+	width: 140px;
+	border: solid 1px #999999;
+	height: 22px;
+}
+/*top 样式*/
+.top_btn
+{
+	background: url(../images/top_btn_1.gif);
+	text-align: center;
+}
+/*相册样式*/
+.tdStyle{ text-align:center; background:url(../images/pic.gif); width:136; height:106; vertical-align:top}
+.tdStyle img{margin-left:-3px;margin-top:6px}
+
+/* user/welcome.aspx 页样式*/
+.maintable
+{
+	margin:15px 0;
+	width:100%;
+}
+.bar
+{
+	background-color:#BFD9FF;
+	margin:1px;
+	height:26px;
+	padding-left:15px;
+	font-weight:bold;
+	color:#0066AA;
+}
+.innertable
+{
+	border:solid 1px #71AAFF;
+	width:100%;
+	word-break:break-all;
+	height:157px;
+}
+#shortcut /*快捷入口 */
+{
+	border:solid 1px #71AAFF;
+	width:100%;
+}
+#shortcut img
+{
+	border:solid 0px #ccc;
+}
+#shortcut a:link,#shortcut a:visited
+{
+	height:30px;
+	padding:10px 0px 10px 30px;
+	color:#000;
+}
+#shortcut a:hover
+{
+	color:#0066AA;
+	text-decoration:underline;
+}
+#tg /*投稿 */
+{
+	background-color:#BFD9FF;
+	text-align:left;
+	padding:2px 2px 1px 2px;
+	border:solid 1px #71AAFF;
+}
+#tg a:link,#tg a:visited
+{
+	padding:0px;
+	margin:0px;
+	height:1px;
+}
+
+.righttable /*其他功能 */
+{
+	width:100%;
+	border:solid 1px #71AAFF;
+}
+/* user/left.aspx页样式*/
+.vr
+{
+	width:1px;
+	background:#999 url("../images/spacer.jpg") repeat-y;
+}
+#leftTable /*left.aspx中的大table*/
+{
+	text-align:center;
+	width:200px;
+	margin-left:5px;
+}
+#leftTable ul
+{
+	list-style:none;
+	margin:0;
+	padding-left:5px;
+}
+#UserInfo /*用户信息列表部分*/
+{
+	text-align:left;
+	margin:10px 5px 0 0;
+}
+#UserInfo ul li 
+{
+	list-style-type:none;
+	line-height:23px;
+	border-bottom:dashed 1px #ccc;
+}
+#redInfo /*重要信息*/
+{
+	background:#FFC8C8;
+	border:solid 1px #900;
+	color:#900;
+	margin:15px 5px 5px 0;
+	width:98%;
+	font-weight:bold;
+}
+#redInfo a,#redInfo a:link
+{
+	text-decoration:none;
+	font-weight:normal;
+}
+
+#redInfo ul li
+{
+	list-style-image:url("../images/skin/default/error.gif");
+	list-style-position:inside;
+}
+#blueInfo /*普通信息*/
+{
+	background:#C9D1FE;
+	border:solid 1px #3C3CFF;
+	margin:0 5px 10px 0;
+	width:98%;
+}
+#blueInfo a ,#blueInfo a:link
+{
+	text-decoration:none;
+}
+#blueInfo ul li
+{
+	list-style-image:url("../images/leftinfo.gif");
+	list-style-position:inside;
+}
+
+/* QA/List.aspx 页样式 */
+#Feedback_State
+{
+	margin-top:5px;
+}
+#Feedback_State ul
+{
+	list-style:none;
+	margin:0;
+}
+#Feedback_State ul li
+{
+	float:left;
+	width:60px;
+	display:block;
+	background:#BFD9FF;
+	text-align:center;
+	margin:0px 4px 0px 4px;
+	border-top:solid 1px #BFD9FF;
+	border-left:solid 1px #BFD9FF;
+	border-right:solid 1px #BFD9FF;
+}
+#Feedback_State ul li a:hover
+{
+	display:block;
+	background:#F0F8FB;
+}
+#Feedback_State ul .Feedback_Selected
+{
+	display:block;
+	background:#F0F8FB;
+}
+.FeedbackBorder
+{
+	border:solid 1px #BFD9FF;
+	padding-left:4px;
+}
+#listCategory
+{
+	width:100%;
+}
+
